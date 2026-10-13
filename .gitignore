@@ -1,0 +1,25 @@
+# Build system and picture sources: kept locally, never published
+# (the published repo carries only the classroom files: each week folder's 3 PDFs + the board HTML)
+tools/
+assets/
+__pycache__/
+*.py[cod]
+*$py.class
+_tmp_build/
+*.log
+
+# Virtual environment & secrets
+.venv/
+venv/
+.env
+*.env
+
+# Office / LibreOffice temporary lock files
+~$*
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

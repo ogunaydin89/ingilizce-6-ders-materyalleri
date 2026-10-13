@@ -1,0 +1,1095 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Year 6 English · Week 20</title>
+<!-- Year 6 English, week 20 (15–19 Feb 2027): interactive board material for the 3 lessons (FAMILY LIFE).
+     One self-contained file: works offline, no downloads. Open it in the board's browser. -->
+<style>
+:root{
+  --bg:#f6f7fb; --panel:#fff; --ink:#1d2433; --muted:#5b6478; --line:#dde1ea;
+  --accent:#2f5bd3; --accent-ink:#fff; --accent-soft:#e7eefc;
+  --ok:#1f8a4c; --ok-soft:#e3f5ea; --bad:#c23b3b; --bad-soft:#fbe7e7; --warn:#b26b00; --warn-soft:#fff3dc;
+  --l1:#2f5bd3; --l2:#c2561f; --l3:#1f8a4c;
+  --r:14px;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:20px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,Ubuntu,"Noto Sans",sans-serif;min-height:100vh;display:flex;flex-direction:column}
+button{font:inherit;color:inherit;cursor:pointer;border:2px solid var(--line);background:var(--panel);border-radius:12px;padding:.45em .9em;min-height:52px;touch-action:manipulation}
+button:hover{border-color:var(--accent)}
+button:disabled{cursor:default;opacity:.55}
+button.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:600}
+button.small{min-height:40px;padding:.2em .7em;font-size:.85em}
+input[type=number]{font:inherit;width:5em;padding:.3em .5em;border:2px solid var(--line);border-radius:10px}
+.emoji{font-family:"Noto Color Emoji","Segoe UI Emoji","Apple Color Emoji",sans-serif;line-height:1}
+
+/* top bar */
+header{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;padding:.6rem 1rem;background:var(--panel);border-bottom:2px solid var(--line);position:sticky;top:0;z-index:5}
+header .brand{font-weight:700;margin-right:auto;cursor:pointer}
+header .brand small{font-weight:400;color:var(--muted)}
+header nav{display:flex;gap:.4rem;flex-wrap:wrap}
+header nav button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.toggle.on{background:var(--warn-soft);border-color:var(--warn)}
+
+main{flex:1;width:100%;max-width:1400px;margin:0 auto;padding:1rem}
+footer{padding:.6rem 1rem;text-align:center;color:var(--muted);font-size:.7rem}
+footer a{color:inherit}
+
+/* hub */
+.hub h1{font-size:2rem;margin:.2rem 0}
+.hub .lead{color:var(--muted);margin:.2rem 0 1.2rem}
+.cards3{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1rem}
+.lcard{background:var(--panel);border:2px solid var(--line);border-top:8px solid var(--c);border-radius:var(--r);padding:1rem 1.2rem;text-align:left;display:flex;flex-direction:column;gap:.4rem}
+.lcard:hover{border-color:var(--c)}
+.lcard h2{margin:0;font-size:1.4rem}
+.lcard .day{color:var(--muted);font-size:.85rem}
+.lcard ol{margin:.3rem 0 0;padding-left:1.2em;font-size:.85rem}
+.howto{margin-top:1.2rem;background:var(--panel);border:2px dashed var(--line);border-radius:var(--r);padding:.8rem 1.2rem;font-size:.85rem}
+.howto ul{margin:.3rem 0;padding-left:1.2em}
+
+/* lesson layout */
+.lesson{display:grid;grid-template-columns:260px 1fr;gap:1rem;align-items:start}
+.steps{background:var(--panel);border:2px solid var(--line);border-radius:var(--r);padding:.5rem;position:sticky;top:5.2rem}
+.steps h3{margin:.3rem .5rem .5rem;font-size:1rem}
+.steps button{display:flex;width:100%;text-align:left;border:0;border-radius:10px;min-height:44px;font-size:.85rem;gap:.5rem;align-items:center}
+.steps button .m{margin-left:auto;color:var(--muted);font-size:.8em;white-space:nowrap}
+.steps button.on{background:var(--accent-soft);font-weight:700}
+.steps .total{font-size:.75rem;color:var(--muted);padding:.4rem .6rem}
+.stage{background:var(--panel);border:2px solid var(--line);border-radius:var(--r);padding:1rem 1.4rem;min-height:70vh;display:flex;flex-direction:column}
+.stagehead{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;border-bottom:2px solid var(--line);padding-bottom:.6rem;margin-bottom:1rem}
+.stagehead h2{margin:0;font-size:1.6rem}
+.stagehead .kicker{font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.stagehead .dice-size{margin-left:auto}
+.dice-size{display:flex;align-items:center;gap:.35rem;font-size:.8rem;color:var(--muted)}
+.dice-size input{width:4.2em;font-size:1.2rem;font-weight:700;text-align:center}
+.body{flex:1}
+.stagefoot{display:flex;justify-content:space-between;gap:1rem;margin-top:1rem;padding-top:.8rem;border-top:2px solid var(--line)}
+details.tip{background:var(--warn-soft);border-radius:10px;padding:.4rem .8rem;margin-bottom:1rem;font-size:.85rem}
+details.tip summary{cursor:pointer;font-weight:600}
+.tr{display:none;color:var(--warn);font-size:.8em;font-style:italic}
+body.show-tr .tr{display:block}
+body.show-tr span.tr{display:inline}
+
+/* content blocks */
+.intro{margin-bottom:1rem}
+.frames{display:flex;flex-direction:column;gap:.7rem}
+.frame{font-size:1.7rem;background:var(--accent-soft);border-radius:var(--r);padding:.5rem 1rem}
+.frame .blank{display:inline-block;min-width:5ch;border-bottom:3px solid var(--accent);color:var(--accent)}
+.picker{margin-top:1.2rem}
+.picker button{font-size:1.4rem;min-height:70px;padding:.4em 1.4em}
+/* dice: who comes to the board (register numbers) */
+.dice-btn{font-size:1.1rem}
+.dice-ov{position:fixed;inset:0;background:rgba(20,25,40,.6);display:grid;place-items:center;z-index:50;padding:16px}
+.dice-card{background:var(--panel);border-radius:24px;padding:1.2rem 2rem 1.4rem;text-align:center;width:min(560px,100%);box-shadow:0 20px 60px rgba(0,0,0,.35)}
+.dice-cube{font-size:3.2rem;display:inline-block}
+.dice-cube.spin{animation:dspin .35s linear infinite}
+@keyframes dspin{to{transform:rotate(360deg)}}
+.dice-num{font-size:min(11rem,32vw);font-weight:900;color:var(--accent);line-height:1.05;font-variant-numeric:tabular-nums;margin:.2rem 0}
+.dice-num.rolling{color:var(--muted)}
+.dice-msg{font-size:1.5rem;font-weight:700;min-height:1.5em}
+.dice-card .row{justify-content:center;margin-top:1rem}
+.dice-set{margin-top:1rem;padding-top:.7rem;border-top:2px solid var(--line);font-size:.85rem;color:var(--muted);display:flex;gap:.6rem;justify-content:center;align-items:center;flex-wrap:wrap}
+@media (prefers-reduced-motion:reduce){.dice-cube.spin{animation:none}}
+.row{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center}
+.muted{color:var(--muted)}
+.big{font-size:1.4em}
+.tools{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:.8rem}
+
+.twocol{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.box{border:2px solid var(--line);border-radius:var(--r);padding:.8rem 1rem}
+.box h3{margin:0 0 .3rem}
+.box ul{margin:.2rem 0;padding-left:1.1em}
+.rule{background:var(--accent-soft);border-radius:var(--r);padding:.6rem 1rem;font-size:.95rem}
+.rule table{border-collapse:collapse}
+.rule td{padding:.1rem .8rem .1rem 0}
+.rule b{color:var(--accent)}
+
+/* flashcards */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.7rem}
+.fc{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.3rem;min-height:150px;padding:.5rem}
+.fc .emoji{font-size:3.4rem}
+.fc .w{font-weight:700;font-size:1.05rem;text-align:center}
+.fc.hidden .w{visibility:hidden}
+.fc.said{border-color:var(--ok);background:var(--ok-soft)}
+
+/* match */
+.match{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+.match .col{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:.6rem;align-content:start}
+.match button{min-height:84px}
+.match .emoji{font-size:2.6rem}
+button.sel{border-color:var(--accent);background:var(--accent-soft);box-shadow:0 0 0 3px var(--accent)}
+button.done{border-color:var(--ok);background:var(--ok-soft);opacity:.7}
+button.wrong,.shake{border-color:var(--bad)!important;background:var(--bad-soft)!important;animation:shake .35s}
+@keyframes shake{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+
+/* mcq */
+.qnum{color:var(--muted);font-size:.85rem;display:flex;gap:.3rem;align-items:center;flex-wrap:wrap}
+.dot{width:14px;height:14px;border-radius:50%;background:var(--line);display:inline-block}
+.dot.ok{background:var(--ok)}.dot.bad{background:var(--bad)}.dot.cur{outline:3px solid var(--accent)}
+.q{font-size:2rem;margin:.6rem 0 .2rem;font-weight:600}
+.q .blank{display:inline-block;min-width:4ch;border-bottom:3px solid var(--accent);text-align:center}
+.q .blank.filled{color:var(--ok);border-color:var(--ok)}
+.opts{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.7rem;margin:1rem 0}
+.opts button{font-size:1.5rem;min-height:80px;text-align:left;display:flex;gap:.7rem;align-items:center}
+.opts .L{display:inline-grid;place-items:center;width:1.8em;height:1.8em;border-radius:50%;background:var(--accent-soft);color:var(--accent);font-weight:800;flex:none;font-size:.8em}
+.opts button.right{border-color:var(--ok);background:var(--ok-soft)}
+.opts button.wrong{animation:none}
+.why{background:var(--ok-soft);border-radius:10px;padding:.5rem .9rem;font-size:1.1rem}
+.why.bad{background:var(--bad-soft)}
+.score{font-size:2.4rem;font-weight:800;margin:1rem 0}
+.scene{display:flex;flex-wrap:wrap;gap:.5rem;background:#eef5ee;border:2px solid #cfe3cf;border-radius:var(--r);padding:.7rem;margin-bottom:.8rem}
+.scene .cell{background:#fff;border-radius:10px;padding:.3rem .5rem;display:flex;flex-direction:column;align-items:center;min-width:88px}
+.scene .emoji{font-size:2.4rem}
+.scene small{font-size:.7rem;color:var(--muted)}
+.scene.fridge{background:#eef3f8;border-color:#cddbea}
+table.res{border-collapse:collapse;font-size:.9rem;margin-top:.6rem}
+table.res th,table.res td{border:1px solid var(--line);padding:.3rem .6rem;text-align:left}
+table.res tr.weak td{background:var(--bad-soft);font-weight:600}
+
+/* sort */
+.pool{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1rem;min-height:70px}
+.pool button{display:flex;align-items:center;gap:.4rem;font-size:1.1rem}
+.pool .emoji{font-size:1.8rem}
+.bins{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:.8rem}
+.bin{min-height:190px;display:flex;flex-direction:column;align-items:stretch;text-align:left;padding:.6rem;border-style:dashed;border-width:3px}
+.bin .bh{font-weight:800;font-size:1.2rem;display:flex;gap:.4rem;align-items:center}
+.bin .bh .emoji{font-size:2rem}
+.bin .bs{font-size:.8rem;color:var(--muted)}
+.bin .in{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.4rem}
+.bin .in span{background:var(--ok-soft);border-radius:8px;padding:.1rem .4rem;font-size:.9rem}
+
+/* guess */
+.guess{display:grid;grid-template-columns:1fr 280px;gap:1.2rem}
+.clues{display:flex;flex-direction:column;gap:.6rem}
+.clue{font-size:1.8rem;background:var(--accent-soft);border-radius:var(--r);padding:.5rem 1rem}
+.clue.hid{background:repeating-linear-gradient(45deg,var(--line),var(--line) 10px,var(--panel) 10px,var(--panel) 20px);color:transparent}
+.mystery{font-size:7rem;text-align:center;line-height:1.1}
+.answer{text-align:center;font-size:2rem;font-weight:800;min-height:1.5em}
+.teams{display:flex;flex-direction:column;gap:.7rem}
+.team{border:2px solid var(--line);border-radius:var(--r);padding:.6rem;text-align:center}
+.team .pts{font-size:3rem;font-weight:800}
+
+/* builder */
+.bcols{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:.8rem}
+.bcol{display:flex;flex-direction:column;gap:.4rem}
+.bcol h4{margin:0;font-size:.8rem;text-transform:uppercase;color:var(--muted)}
+.bcol button{text-align:left;min-height:48px;font-size:1rem}
+.sentence{font-size:2rem;font-weight:700;background:var(--accent-soft);border-radius:var(--r);padding:.6rem 1rem;margin:1rem 0;min-height:2.2em}
+
+/* menu */
+.menu{display:grid;grid-template-columns:1.1fr .9fr;gap:1.2rem}
+.menucard{background:#fffaf0;border:3px double #c9a45c;border-radius:var(--r);padding:.8rem 1rem}
+.menucard h3{text-align:center;margin:.1rem 0;font-family:Georgia,serif;font-size:1.6rem}
+.menucard h4{margin:.6rem 0 .2rem;color:#8a6a2a;text-transform:uppercase;font-size:.8rem;letter-spacing:.08em}
+.mi{display:flex;width:100%;border:0;background:none;min-height:44px;padding:.2rem .4rem;gap:.5rem;align-items:center;font-size:1.05rem;border-radius:8px}
+.mi:hover{background:#f6ecd6}
+.mi .p{margin-left:auto;font-variant-numeric:tabular-nums;font-weight:600}
+.order{display:flex;flex-direction:column;gap:.4rem}
+.say{background:var(--accent-soft);border-radius:10px;padding:.4rem .8rem;font-size:1.1rem}
+.say.waiter{background:var(--warn-soft)}
+.say b{font-size:.75em;text-transform:uppercase;color:var(--muted);margin-right:.4em}
+.total{font-size:1.4rem;font-weight:800}
+.script{font-size:.95rem}
+.script p{margin:.2rem 0}
+.check{border-collapse:collapse;font-size:.85rem}
+.check td,.check th{border:1px solid var(--line);padding:.15rem .4rem;text-align:center}
+.check td button{min-height:34px;min-width:44px;padding:0}
+.check td button.on{background:var(--ok-soft);border-color:var(--ok)}
+
+@media (max-width:900px){
+  body{font-size:17px}
+  .lesson{grid-template-columns:1fr}
+  .steps{position:static}
+  .twocol,.menu,.guess,.match{grid-template-columns:1fr}
+  .q{font-size:1.5rem}.frame,.clue,.sentence{font-size:1.3rem}
+}
+@media print{header,.steps,.stagefoot{display:none}.lesson{display:block}}
+
+/* fullscreen mode: edge-to-edge classroom smartboard view */
+body.is-fullscreen{font-size:26px}
+body.is-fullscreen header{padding:.4rem 1rem}
+body.is-fullscreen main{max-width:100vw;margin:0;padding:.4rem .8rem}
+body.is-fullscreen footer{display:none}
+body.is-fullscreen .lesson{grid-template-columns:1fr;gap:.6rem}
+body.is-fullscreen .steps{position:static;display:flex;flex-direction:row;align-items:center;gap:.4rem;overflow-x:auto;padding:.3rem .6rem}
+body.is-fullscreen .steps h3,body.is-fullscreen .steps .total{display:none}
+body.is-fullscreen .steps button{width:auto;white-space:nowrap;font-size:.85rem;padding:.3em .8em;min-height:42px}
+body.is-fullscreen .stage{min-height:82vh;padding:1.2rem 1.8rem}
+body.is-fullscreen .stagehead h2{font-size:2rem}
+body.is-fullscreen .q{font-size:2.8rem}
+body.is-fullscreen .frame,body.is-fullscreen .sentence,body.is-fullscreen .clue{font-size:2.2rem}
+body.is-fullscreen button{min-height:60px}
+body.is-fullscreen .opts button{min-height:92px;font-size:1.7rem}
+body.is-fullscreen .fc{min-height:190px}
+body.is-fullscreen .fc .w{font-size:1.4rem}
+body.is-fullscreen .fc .emoji{font-size:4.5rem}
+
+/* listening station */
+.listening-station{background:var(--panel);border:2px solid var(--accent);border-radius:var(--r);padding:1.2rem 1.4rem;margin-bottom:1.2rem;display:flex;flex-direction:column;gap:.9rem}
+.listen-top{display:flex;align-items:center;gap:.8rem;flex-wrap:wrap}
+.listen-top button.primary{font-size:1.2rem;min-height:56px;padding:.4em 1.2em}
+.listen-badge{background:var(--accent-soft);color:var(--accent);font-weight:700;padding:.4em .8em;border-radius:10px;font-size:1rem}
+.listen-show-btn{margin-left:auto;font-size:1rem;min-height:48px}
+.listen-bar-wrap{display:flex;align-items:center;gap:.8rem;width:100%}
+.listen-prog{flex:1;height:12px;border-radius:6px;background:var(--line);cursor:pointer;position:relative;overflow:hidden}
+.listen-prog-fill{height:100%;background:var(--accent);width:0%;transition:width .1s linear}
+.listen-time{font-variant-numeric:tabular-nums;font-size:.9rem;color:var(--muted);white-space:nowrap}
+.passage-box{display:none;background:var(--bg);border:2px dashed var(--line);border-radius:var(--r);padding:1rem 1.2rem;font-size:1.25rem;line-height:1.6}
+.passage-box.visible{display:block;animation:fadeIn .25s ease}
+@keyframes fadeIn{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
+
+img.pic{max-height:7rem;max-width:100%;border-radius:12px;object-fit:contain;display:block;margin:0 auto}
+.match button img.pic{max-height:3.4rem}
+.cell img.pic,.mi img.pic,.pool button img.pic,.bin img.pic{max-height:3rem}
+.mystery img.pic{max-height:9rem}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand" id="brand">Year 6 English · Week 20 <small>Theme 4 Family Life · 15–19 Feb 2027</small></div>
+  <nav id="nav"></nav>
+  <button class="toggle small" id="trBtn" title="Show Turkish hints">TR hints</button>
+  <button class="small" id="fsBtn" title="Full screen">⛶ Full screen</button>
+</header>
+<main id="app"></main>
+<footer>Prepared by Ogün Aydın · CC BY 4.0: free to use, share and adapt with credit · <a href="https://github.com/ogunaydin89/ingilizce-6-ders-materyalleri">github.com/ogunaydin89/ingilizce-6-ders-materyalleri</a></footer>
+
+<script>
+"use strict";
+/* ============================================================
+   CONTENT. Each lesson = 40 min, split into steps.
+   Step types: frames, cards, match, mcq, sort, guess, builder, menu.
+   In mcq, the FIRST option is the correct one (options are shuffled on screen),
+   unless the question has a:<index> or fixed:true: then the options keep their order.
+   ============================================================ */
+const LESSONS = [
+ {
+  "id": "l1",
+  "color": "var(--l1)",
+  "title": "Lesson 1",
+  "sub": "Plan your booklet",
+  "day": "Lesson 1 of 3",
+  "steps": [
+   {
+    "type": "frames",
+    "title": "Warm-up: Who is it about?",
+    "min": 4,
+    "tip": "Ask 3–4 pupils (🎲). Pupils may choose an imagined person.",
+    "lines": [
+     "My booklet is about my <span class='blank'>&nbsp;</span> . / a person I admire.",
+     "He / She is a <span class='blank'>&nbsp;</span> .",
+     "He / She works in a <span class='blank'>&nbsp;</span> .",
+     "He / She lives in a <span class='blank'>&nbsp;</span> ."
+    ],
+    "trs": [
+     "Broşürüm … hakkında.",
+     "O bir … .",
+     "… ’de çalışır.",
+     "… ’de yaşar."
+    ],
+    "picker": 30
+   },
+   {
+    "type": "mcq",
+    "title": "Revision: Theme 4",
+    "min": 8,
+    "mode": "practice",
+    "tip": "Quick revision: pupils read the full sentence aloud.",
+    "qs": [
+     {
+      "q": "A ___ prepares food in a restaurant.",
+      "o": [
+       "cook",
+       "dentist",
+       "pilot"
+      ]
+     },
+     {
+      "q": "A company ___ many people.",
+      "o": [
+       "employs",
+       "farms",
+       "reports"
+      ]
+     },
+     {
+      "q": "The cook prepares the food ___ the guests arrive.",
+      "o": [
+       "when",
+       "while",
+       "because"
+      ]
+     },
+     {
+      "q": "She talks on the phone ___ she is driving.",
+      "o": [
+       "while",
+       "when",
+       "so"
+      ]
+     },
+     {
+      "q": "The reporter is introducing ___ .",
+      "o": [
+       "herself",
+       "her",
+       "she"
+      ]
+     },
+     {
+      "q": "___ room is upstairs? — The bedroom.",
+      "o": [
+       "Which",
+       "Who",
+       "Whose"
+      ]
+     },
+     {
+      "q": "There ___ a sink in the kitchen.",
+      "o": [
+       "is",
+       "are",
+       "am"
+      ]
+     },
+     {
+      "q": "We ___ to a new apartment next week.",
+      "o": [
+       "are moving",
+       "move",
+       "moves"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "frames",
+    "title": "The model booklet",
+    "min": 6,
+    "tip": "Read the model together. Ask: “Where are the job, the workplace, the routine and the home?”",
+    "lines": [
+     "PAGE 1: My uncle, the pilot",
+     "PAGE 2: He works at an airport. When the plane lands, he checks the engines.",
+     "PAGE 3: Every day he wakes up at five and starts work at seven. While he is flying, he talks to the passengers.",
+     "PAGE 4: His home is an apartment on the second floor. There is a living room, a kitchen and two bedrooms. He relaxes in the living room and enjoys himself."
+    ],
+    "trs": [
+     "SAYFA 1: Amcam pilot",
+     "SAYFA 2: Havalimanında çalışır.",
+     "SAYFA 3: Her gün beşte kalkar, yedide işe başlar.",
+     "SAYFA 4: Evi ikinci kattaki bir daire. Oturma odası, mutfak ve iki yatak odası var."
+    ]
+   },
+   {
+    "type": "frames",
+    "title": "Plan the four pages",
+    "min": 6,
+    "tip": "Pupils plan the page content on Worksheet 1 before they write.",
+    "lines": [
+     "Page 1: who? what job?",
+     "Page 2: workplace and what he / she does (4 sentences)",
+     "Page 3: daily routine with when / while (4 sentences)",
+     "Page 4: the home: type, rooms, special areas, a drawing (4 sentences)"
+    ],
+    "trs": [
+     "Sayfa 1: kim? hangi meslek?",
+     "Sayfa 2: işyeri ve ne yaptığı",
+     "Sayfa 3: günlük rutin when / while ile",
+     "Sayfa 4: ev: tür, odalar, özel alanlar ve çizim"
+    ]
+   },
+   {
+    "type": "frames",
+    "title": "Write your sentences",
+    "min": 12,
+    "tip": "Pupils write their 12–16 sentences. Walk around and check -s endings, when / while and there is / are.",
+    "lines": [
+     "Page 1: <span class='blank'>&nbsp;</span> is my <span class='blank'>&nbsp;</span> . He / She is a <span class='blank'>&nbsp;</span> .",
+     "Page 2: He / She works in a <span class='blank'>&nbsp;</span> . When <span class='blank'>&nbsp;</span> , he / she <span class='blank'>&nbsp;</span> .",
+     "Page 3: Every day he / she <span class='blank'>&nbsp;</span> . While he / she is <span class='blank'>&nbsp;</span> , he / she <span class='blank'>&nbsp;</span> .",
+     "Page 4: His / Her home is a <span class='blank'>&nbsp;</span> . There is / are <span class='blank'>&nbsp;</span> . He / She likes the <span class='blank'>&nbsp;</span> best."
+    ],
+    "trs": [
+     "Sayfa 1: … benim … . O bir … .",
+     "Sayfa 2: … ’de çalışır. … zaman … .",
+     "Sayfa 3: Her gün … . … yaparken … .",
+     "Sayfa 4: Evi bir … . … var. En çok … ’i sever."
+    ]
+   },
+   {
+    "type": "frames",
+    "title": "The rating scale",
+    "min": 4,
+    "tip": "Explain the five criteria (each scored 1–3).",
+    "lines": [
+     "1  Job and workplace",
+     "2  Daily routine (Present Simple, when / while)",
+     "3  The home: rooms and special areas",
+     "4  Illustration and design",
+     "5  Presentation: clear voice, eye contact"
+    ],
+    "trs": [
+     "1  Meslek ve işyeri",
+     "2  Günlük rutin",
+     "3  Ev: odalar ve özel alanlar",
+     "4  Çizim ve tasarım",
+     "5  Sunum"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l2",
+  "color": "var(--l2)",
+  "title": "Lesson 2",
+  "sub": "Make your booklet",
+  "day": "Lesson 2 of 3",
+  "steps": [
+   {
+    "type": "frames",
+    "title": "Warm-up: read to your partner",
+    "min": 3,
+    "tip": "Pairs read their sentences. Use 🎲 to choose 2 pupils to read one to the class.",
+    "lines": [
+     "Read your sentences to your partner.",
+     "Is every sentence correct?",
+     "Listen for -s, when / while."
+    ],
+    "trs": [
+     "Cümlelerini partnerine oku.",
+     "Her cümle doğru mu?",
+     "-s ve when / while’a dikkat et."
+    ],
+    "picker": 30
+   },
+   {
+    "type": "mcq",
+    "title": "Spot the mistake",
+    "min": 7,
+    "mode": "practice",
+    "tip": "Check the typical mistakes before pupils copy their sentences into the booklet.",
+    "qs": [
+     {
+      "q": "Which sentence is correct?",
+      "o": [
+       "He works at an airport.",
+       "He work at an airport.",
+       "He works in a airport."
+      ]
+     },
+     {
+      "q": "Which sentence is correct?",
+      "o": [
+       "When the plane lands, he checks the engines.",
+       "When the plane land, he checks the engines.",
+       "When the plane lands, he check the engines."
+      ]
+     },
+     {
+      "q": "Which sentence is correct?",
+      "o": [
+       "While he is flying, he talks to the passengers.",
+       "While he flying, he talks to the passengers.",
+       "While he flies, he talking to the passengers."
+      ]
+     },
+     {
+      "q": "Which sentence is correct?",
+      "o": [
+       "There are two bedrooms.",
+       "There is two bedrooms.",
+       "There be two bedrooms."
+      ]
+     },
+     {
+      "q": "Which sentence is correct?",
+      "o": [
+       "She enjoys herself at work.",
+       "She enjoys her at work.",
+       "She enjoys himself at work."
+      ]
+     },
+     {
+      "q": "Which sentence is correct?",
+      "o": [
+       "Which room is upstairs?",
+       "Which room are upstairs?",
+       "Who room is upstairs?"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "frames",
+    "title": "Booklet workshop",
+    "min": 20,
+    "tip": "Pupils make their booklets. Walk around; feedback on language first, layout second.",
+    "lines": [
+     "Fold a paper to make a four-page booklet. Write a title on the cover.",
+     "Write your sentences neatly on the pages.",
+     "Draw the home on page 4: label two special areas.",
+     "Add small drawings on the other pages."
+    ],
+    "trs": [
+     "Kağıdı katla ve dört sayfalık bir broşür yap. Kapağa başlık yaz.",
+     "Cümlelerini düzgünce yaz.",
+     "4. sayfaya evi çiz ve iki özel alanı etiketle.",
+     "Diğer sayfalara küçük çizimler ekle."
+    ]
+   },
+   {
+    "type": "frames",
+    "title": "Peer check",
+    "min": 10,
+    "tip": "Pairs swap booklets and complete the checklist; then they improve their own booklets.",
+    "lines": [
+     "Check your partner’s booklet with Worksheet 2.",
+     "Tick the boxes. Write one thing you like.",
+     "Write one thing to improve.",
+     "Thank your partner."
+    ],
+    "trs": [
+     "Worksheet 2 ile partnerinin broşürünü kontrol et.",
+     "Kutuları işaretle. Beğendiğin bir şey yaz.",
+     "Geliştirilecek bir şey yaz.",
+     "Partnerine teşekkür et."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l3",
+  "color": "var(--l3)",
+  "title": "Lesson 3",
+  "sub": "Present and display",
+  "day": "Lesson 3 of 3",
+  "steps": [
+   {
+    "type": "frames",
+    "title": "Presentation language",
+    "min": 4,
+    "tip": "Model a short presentation with a sample booklet. Pupils repeat the frames.",
+    "lines": [
+     "Hello, everyone. This is my booklet about my <span class='blank'>&nbsp;</span> .",
+     "He / She is a <span class='blank'>&nbsp;</span> and works in a <span class='blank'>&nbsp;</span> .",
+     "When he / she <span class='blank'>&nbsp;</span> , he / she <span class='blank'>&nbsp;</span> . There is / are <span class='blank'>&nbsp;</span> in his / her home.",
+     "Thank you for listening. Any questions?"
+    ],
+    "trs": [
+     "Merhaba. Bu, … hakkındaki broşürüm.",
+     "O bir … ve … ’de çalışır.",
+     "… zaman … . Evinde … var.",
+     "Dinlediğiniz için teşekkürler. Sorunuz var mı?"
+    ]
+   },
+   {
+    "type": "frames",
+    "title": "Booklet presentations",
+    "min": 28,
+    "tip": "Order: use 🎲 Who’s next? Keep each presentation to about 1–2 minutes; fill in the rating scale in the answer key while pupils present.",
+    "lines": [
+     "Each pupil presents for about 1–2 minutes.",
+     "The audience asks one question: “Which room …?” or “What does he / she do when …?”",
+     "The teacher scores each pupil on the rating scale.",
+     "Display the booklets on the classroom shelf."
+    ],
+    "trs": [
+     "Her öğrenci yaklaşık 1–2 dakika sunar.",
+     "Dinleyiciler bir soru sorar.",
+     "Öğretmen derecelendirme ölçeğiyle puanlar.",
+     "Broşürleri sınıf rafında sergile."
+    ],
+    "picker": 30
+   },
+   {
+    "type": "frames",
+    "title": "Reflection + display",
+    "min": 8,
+    "tip": "Pupils complete the self-assessment and display their booklets.",
+    "lines": [
+     "Fill in Worksheet 3: How did I do?",
+     "What was easy? What was difficult?",
+     "Next time I will <span class='blank'>&nbsp;</span> .",
+     "Put your booklet on the shelf."
+    ],
+    "trs": [
+     "Worksheet 3’ü doldur: Nasıldı?",
+     "Ne kolaydı? Ne zordu?",
+     "Bir dahaki sefere … .",
+     "Broşürünü rafa koy."
+    ]
+   }
+  ]
+ }
+];
+
+/* ============================================================
+   ENGINE
+   ============================================================ */
+const $ = (s, r = document) => r.querySelector(s);
+function h(tag, attrs, ...kids) {
+  const el = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (v == null || v === false) continue;
+    if (k === "class") el.className = v;
+    else if (k === "html") el.innerHTML = v;
+    else if (k.startsWith("on")) el.addEventListener(k.slice(2), v);
+    else el.setAttribute(k, v === true ? "" : v);
+  }
+  for (const k of kids.flat()) if (k != null && k !== false) el.append(k.nodeType ? k : document.createTextNode(k));
+  return el;
+}
+const emo = (e, cls) => (typeof e === "string" && e.startsWith("img:")) ? h("img", {class: "pic" + (cls ? " " + cls : ""), src: e.slice(4), alt: ""}) : h("span", {class: "emoji" + (cls ? " " + cls : "")}, e);
+// seeded shuffle: the same question always shows its options in the same A/B/C order
+function rng(seed) { let a = 0; for (const c of seed) a = (a * 31 + c.charCodeAt(0)) | 0;
+  return () => { a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+function shuffle(arr, r = Math.random) { const a = arr.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+const LETTERS = "ABCD";
+
+let state = {lesson: -1, step: 0};
+let activeAudio = null;
+function stopAudio() { if (activeAudio) { activeAudio.pause(); activeAudio = null; } }
+
+function go(lesson, step = 0) { location.hash = lesson < 0 ? "" : `#${LESSONS[lesson].id}/${step + 1}`; }
+function readHash() {
+  const m = location.hash.match(/^#(l\d)\/?(\d+)?/);
+  const li = m ? LESSONS.findIndex(l => l.id === m[1]) : -1;
+  state.lesson = li;
+  state.step = li < 0 ? 0 : Math.min(Math.max((+m[2] || 1) - 1, 0), LESSONS[li].steps.length - 1);
+  render();
+}
+
+function render() {
+  stopAudio();
+  const nav = $("#nav"); nav.innerHTML = "";
+  nav.append(h("button", {class: "small" + (state.lesson < 0 ? " on" : ""), onclick: () => go(-1)}, "🏠 Home"));
+  LESSONS.forEach((l, i) => nav.append(h("button", {class: "small" + (state.lesson === i ? " on" : ""), onclick: () => go(i)}, `${l.title}: ${l.sub.split(" (")[0]}`)));
+  const app = $("#app"); app.innerHTML = "";
+  if (state.lesson < 0) return renderHub(app);
+  renderLesson(app, LESSONS[state.lesson]);
+  window.scrollTo(0, 0);
+}
+
+function renderHub(app) {
+  const hub = h("div", {class: "hub"},
+    h("h1", null, "Year 6 English · Week 20"),
+    h("p", {class: "lead"}, "Theme 4 Family Life · Performance task: a booklet about a family member · 3 lessons × 40 minutes · 6/A – 6/B"));
+  const grid = h("div", {class: "cards3"});
+  LESSONS.forEach((l, i) => {
+    const tot = l.steps.reduce((s, x) => s + x.min, 0);
+    grid.append(h("button", {class: "lcard", style: `--c:${l.color}`, onclick: () => go(i)},
+      h("h2", null, `${l.title}: ${l.sub}`), h("div", {class: "day"}, `${l.day} · ${tot} min`),
+      h("ol", null, l.steps.map(s => h("li", null, `${s.title} (${s.min}′)`)))));
+  });
+  hub.append(grid, h("div", {class: "howto", html:
+    `<b>How to use it on the board</b><ul>
+    <li>Open a lesson and go step by step with <b>Next ▶</b> (or the → arrow key). Tap <b>⛶ Full screen</b> for classroom smartboard view.</li>
+    <li><b>Teacher tip</b> (yellow) says how to run the step. <b>TR hints</b> shows short Turkish help for weaker pupils.</li>
+    <li><b>🎲 Who’s next?</b> is on every step (or press <b>D</b>): it rolls a class register number for the pupil who comes to the board. Nobody is picked twice until everyone has had a turn; “Roll again” skips an absent pupil. Type the number of pupils in the <b>👥 Pupils</b> box at the top of any page (6/A and 6/B have different numbers): changing it starts a new round for the new class. The number is remembered on this computer.</li>
+    <li>Everything works offline. No pupil names are needed or saved.</li>
+    <li>The Lesson 3 revision quiz is diagnostic: pupils answer on paper, you type how many got each question right, and the last screen shows the weakest themes.</li></ul>`}));
+  app.append(hub);
+}
+
+function renderLesson(app, L) {
+  const S = L.steps[state.step];
+  const side = h("aside", {class: "steps"}, h("h3", {style: `color:${L.color}`}, `${L.title}: ${L.sub}`));
+  L.steps.forEach((s, i) => side.append(h("button", {class: i === state.step ? "on" : "", onclick: () => go(state.lesson, i)},
+    h("span", null, `${i + 1}. ${s.title}`), h("span", {class: "m"}, `${s.min}′`))));
+  side.append(h("div", {class: "total"}, `Total: ${L.steps.reduce((a, s) => a + s.min, 0)} minutes · ${L.day}`));
+
+  const body = h("div", {class: "body"});
+  if (S.tip) body.append(h("details", {class: "tip", open: true}, h("summary", null, "Teacher tip"), h("div", null, S.tip)));
+  if (S.intro) body.append(h("div", {class: "intro", html: S.intro}));
+  RENDER[S.type](S, body);
+
+  const last = state.step === L.steps.length - 1;
+  const stage = h("section", {class: "stage"},
+    h("div", {class: "stagehead"},
+      h("div", null, h("div", {class: "kicker"}, `Step ${state.step + 1} of ${L.steps.length} · ${S.min} min`), h("h2", null, S.title)),
+      h("label", {class: "dice-size", title: "Number of pupils in this class (the dice rolls 1 to this number)"}, "👥 Pupils:",
+        h("input", {type: "number", min: 2, max: 60, value: DICE.max, onchange: e => { setDiceMax(e.target.value); e.target.value = DICE.max; }})),
+      h("button", {class: "primary dice-btn", title: "Pick a pupil to come to the board (key: D)", onclick: openDice}, "🎲 Who’s next?")),
+    body,
+    h("div", {class: "stagefoot"},
+      h("button", {disabled: state.step === 0, onclick: () => go(state.lesson, state.step - 1)}, "◀ Back"),
+      last ? h("button", {class: "primary", onclick: () => go(-1)}, "Lesson finished 🏠")
+           : h("button", {class: "primary", onclick: () => go(state.lesson, state.step + 1)}, `Next: ${L.steps[state.step + 1].title} ▶`)));
+  app.append(h("div", {class: "lesson"}, side, stage));
+}
+
+/* ---------- step renderers ---------- */
+const RENDER = {
+  frames(S, box) {
+    const f = h("div", {class: "frames"});
+    S.lines.forEach((l, i) => f.append(h("div", {class: "frame"}, h("div", {html: l}), S.trs && S.trs[i] ? h("div", {class: "tr"}, S.trs[i]) : null)));
+    box.append(f);
+    if (S.picker) box.append(h("div", {class: "picker"}, h("button", {class: "primary", onclick: openDice}, "🎲 Who’s next? (register no.)")));
+  },
+
+  cards(S, box) {
+    let hide = false;
+    const grid = h("div", {class: "grid"});
+    const draw = items => { grid.innerHTML = ""; items.forEach(it => {
+      const b = h("button", {class: "fc" + (hide ? " hidden" : ""), onclick: () => { if (b.classList.contains("hidden")) b.classList.remove("hidden"); else b.classList.toggle("said"); }},
+        emo(it.e), h("span", {class: "w"}, it.w), h("span", {class: "tr"}, it.tr));
+      grid.append(b); }); };
+    const hideBtn = h("button", {class: "small toggle", onclick: () => { hide = !hide; hideBtn.classList.toggle("on", hide); hideBtn.textContent = hide ? "Show words" : "Hide words";
+      grid.querySelectorAll(".fc").forEach(c => c.classList.toggle("hidden", hide)); }}, "Hide words");
+    box.append(h("div", {class: "tools"}, hideBtn, h("button", {class: "small", onclick: () => draw(shuffle(S.items))}, "🔀 Shuffle"),
+      h("span", {class: "muted", style: "font-size:.8rem"}, "Tap a hidden card to show its word. Tap again to mark it green.")), grid);
+    draw(S.items);
+  },
+
+  match(S, box) {
+    const wrap = h("div");
+    box.append(wrap);
+    function round() {
+      wrap.innerHTML = "";
+      const set = shuffle(S.items).slice(0, S.per), msg = h("div", {class: "big", style: "min-height:1.6em;margin-top:.8rem"});
+      let pickE = null, pickW = null, done = 0;
+      const colE = h("div", {class: "col"}), colW = h("div", {class: "col"});
+      const check = () => {
+        if (!pickE || !pickW) return;
+        const a = pickE, b = pickW; pickE = pickW = null;
+        if (a.dataset.w === b.dataset.w) { [a, b].forEach(x => { x.classList.remove("sel"); x.classList.add("done"); x.disabled = true; });
+          if (++done === set.length) msg.textContent = "🎉 Well done! All matched."; }
+        else { [a, b].forEach(x => { x.classList.remove("sel"); x.classList.add("wrong"); setTimeout(() => x.classList.remove("wrong"), 450); }); }
+      };
+      shuffle(set).forEach(it => { const b = h("button", {"data-w": it.w, onclick: () => { if (pickE) pickE.classList.remove("sel"); pickE = b; b.classList.add("sel"); check(); }}, emo(it.e)); colE.append(b); });
+      shuffle(set).forEach(it => { const b = h("button", {"data-w": it.w, onclick: () => { if (pickW) pickW.classList.remove("sel"); pickW = b; b.classList.add("sel"); check(); }}, it.w); colW.append(b); });
+      wrap.append(h("div", {class: "tools"}, h("button", {class: "small", onclick: round}, "🔄 New round")), h("div", {class: "match"}, colE, colW), msg);
+    }
+    round();
+  },
+
+  mcq(S, box) {
+    const quiz = S.mode === "quiz";
+    const qs = S.qs.map((q, i) => ({...q, opts: (q.fixed || q.a != null ? x => x : x => shuffle(x, rng(S.title + i)))(q.o.map((t, k) => ({t, ok: k === (q.a ?? 0)})))}));
+    const res = qs.map(() => null);      // practice: true/false · quiz: number of pupils right
+    let i = 0, classSize = 20;
+    if (S.scene) {
+      const sc = h("div", {class: "scene" + (S.scene.cls ? " " + S.scene.cls : "")});
+      S.scene.cells.forEach(([e, l]) => sc.append(h("div", {class: "cell"}, emo(e), l ? h("small", null, l) : null)));
+      box.append(h("div", {class: "muted", style: "font-size:.85rem"}, S.scene.title), sc);
+    }
+    const wrap = h("div"); box.append(wrap);
+    const qText = (q, fill) => { const parts = q.q.split("___"); const d = h("div", {class: "q"}, parts[0]);
+      if (parts.length > 1) { d.append(h("span", {class: "blank" + (fill ? " filled" : "")}, fill || " "), parts[1]); } return d; };
+
+    function draw() {
+      wrap.innerHTML = "";
+      if (i >= qs.length) return summary();
+      const q = qs[i], right = q.opts.find(o => o.ok).t;
+      const dots = h("div", {class: "qnum"}, `Question ${i + 1} / ${qs.length}`, " ",
+        qs.map((_, k) => h("span", {class: "dot" + (k === i ? " cur" : "") + (!quiz && res[k] === true ? " ok" : "") + (!quiz && res[k] === false ? " bad" : "") + (quiz && res[k] != null ? " ok" : "")})));
+      let qd = qText(q);
+      const opts = h("div", {class: "opts"}), after = h("div");
+      const reveal = picked => {
+        const nq = qText(q, q.q.includes("___") ? right : null); qd.replaceWith(nq); qd = nq;
+        opts.querySelectorAll("button").forEach(b => { b.disabled = true; if (b.dataset.ok === "1") b.classList.add("right"); });
+        if (picked && picked.dataset.ok !== "1") picked.classList.add("wrong");
+      };
+      let commit = null;   // quiz: store the hands-up count before moving on
+      const next = h("button", {class: "primary", onclick: () => { if (commit) commit(); i++; draw(); }}, i === qs.length - 1 ? "See results ▶" : "Next question ▶");
+      q.opts.forEach((o, k) => opts.append(h("button", {"data-ok": o.ok ? "1" : "0", onclick: e => {
+        if (quiz) return;
+        const b = e.currentTarget; res[i] = o.ok; reveal(b);
+        after.append(h("div", {class: "why" + (o.ok ? "" : " bad")}, o.ok ? "✅ Correct! " : `❌ Not quite. The answer is “${right}”. `, q.why || ""),
+          h("div", {class: "row", style: "margin-top:.8rem"}, next));
+      }}, h("span", {class: "L"}, LETTERS[k]), o.t)));
+      if (quiz) {
+        const n = h("input", {type: "number", min: 0, max: 60, placeholder: "0", value: res[i] ?? ""});
+        const show = h("button", {class: "primary", onclick: () => { reveal(); show.remove();
+          after.append(h("div", {class: "row"}, h("span", null, "Hands up! How many pupils got it right?"), n, next)); n.focus(); }}, "👀 Show answer");
+        commit = () => res[i] = n.value === "" ? 0 : Math.max(0, +n.value);
+        after.append(show);
+      }
+      wrap.append(...[dots, qd, q.tr && h("div", {class: "tr"}, q.tr), opts, after].filter(Boolean));
+    }
+
+    function summary() {
+      if (!quiz) {
+        const sc = res.filter(x => x).length;
+        wrap.append(h("div", {class: "score"}, `${sc} / ${qs.length} ${sc === qs.length ? "🌟" : sc >= qs.length * .7 ? "👏" : "💪"}`),
+          h("div", {class: "row"}, h("button", {onclick: () => { res.fill(null); i = 0; draw(); }}, "🔁 Try again")));
+        return;
+      }
+      const cs = h("input", {type: "number", min: 1, max: 60, value: classSize});
+      const out = h("div");
+      const table = () => {
+        classSize = Math.max(1, +cs.value || 20);
+        const tags = [...new Set(qs.map(q => q.tag))];
+        const rows = tags.map(t => { const ks = qs.map((q, k) => q.tag === t ? k : -1).filter(k => k >= 0);
+          const pct = Math.round(100 * ks.reduce((a, k) => a + (res[k] || 0), 0) / (ks.length * classSize)); return {t, ks, pct}; });
+        const min = Math.min(...rows.map(r => r.pct));
+        out.innerHTML = "";
+        out.append(h("table", {class: "res"}, h("tr", null, h("th", null, "Theme"), h("th", null, "Questions"), h("th", null, "Correct")),
+          rows.map(r => h("tr", {class: r.pct === min && r.pct < 80 ? "weak" : ""}, h("td", null, r.t), h("td", null, r.ks.map(k => k + 1).join(", ")), h("td", null, `${Math.min(r.pct, 100)} %`)))),
+          h("table", {class: "res"}, h("tr", null, h("th", null, "Q"), qs.map((_, k) => h("th", null, k + 1))),
+            h("tr", null, h("td", null, "Right"), qs.map((_, k) => h("td", null, res[k] ?? "–")))),
+          h("p", {class: "muted", style: "font-size:.85rem"}, "Red row = weakest theme. Revise it with a short warm-up in Theme 1 lessons."));
+      };
+      cs.oninput = table;
+      wrap.append(h("h3", null, "📊 Results"), h("div", {class: "row"}, h("span", null, "Pupils in class today:"), cs),
+        h("div", {class: "rule", style: "margin:.8rem 0"}, h("b", null, "Answer key: "), qs.map((q, k) => `${k + 1}-${LETTERS[q.opts.findIndex(o => o.ok)]}`).join("  ·  ")),
+        out, h("div", {class: "row", style: "margin-top:.8rem"}, h("button", {onclick: () => { res.fill(null); i = 0; draw(); }}, "🔁 Start again")));
+      table();
+    }
+    draw();
+  },
+
+  sort(S, box) {
+    let sel = null, left = S.items.length, wrong = 0;
+    const pool = h("div", {class: "pool"}), bins = h("div", {class: "bins"}), msg = h("div", {class: "big", style: "min-height:1.6em;margin-top:.8rem"});
+    shuffle(S.items).forEach(([e, w, bin]) => {
+      const b = h("button", {onclick: () => { if (sel) sel.classList.remove("sel"); sel = b; b.classList.add("sel"); }}, emo(e), w);
+      b.dataset.bin = bin; b.dataset.e = e; b.dataset.w = w; pool.append(b);
+    });
+    S.bins.forEach(bn => {
+      const inside = h("div", {class: "in"});
+      const bb = h("button", {class: "bin", onclick: () => {
+        if (!sel) { bb.classList.add("shake"); setTimeout(() => bb.classList.remove("shake"), 400); return; }
+        if (sel.dataset.bin === bn.id) { inside.append(h("span", null, emo(sel.dataset.e), " ", sel.dataset.w)); sel.remove(); sel = null;
+          if (--left === 0) msg.textContent = `🎉 All sorted! Mistakes: ${wrong}`; }
+        else { wrong++; const s = sel; s.classList.add("wrong"); setTimeout(() => s.classList.remove("wrong"), 450); }
+      }}, h("div", {class: "bh"}, emo(bn.e), bn.label), bn.sub ? h("div", {class: "bs"}, bn.sub) : null, bn.tr ? h("div", {class: "tr"}, bn.tr) : null, inside);
+      bins.append(bb);
+    });
+    box.append(h("p", {class: "muted", style: "margin:.2rem 0 .6rem;font-size:.85rem"}, "Tap a card, then tap the right box."), pool, bins, msg);
+  },
+
+  guess(S, box) {
+    const list = shuffle(S.animals); let a = 0, shown = 1, open = false;
+    const pts = [0, 0];
+    const stage = h("div"); box.append(stage);
+    function draw() {
+      stage.innerHTML = "";
+      const [e, name, clues] = list[a];
+      const clueBox = h("div", {class: "clues"}, h("div", {class: "muted"}, `Animal ${a + 1} / ${list.length} · “What can it do? Where does it live?”`),
+        clues.map((c, k) => h("div", {class: "clue" + (k < shown || open ? "" : " hid")}, `${k + 1}. ${c}`)),
+        h("div", {class: "row", style: "margin-top:.4rem"},
+          h("button", {disabled: shown >= 3 || open, onclick: () => { shown++; draw(); }}, "💡 Next clue"),
+          h("button", {class: "primary", disabled: open, onclick: () => { open = true; draw(); }}, "Show answer"),
+          h("button", {disabled: a >= list.length - 1, onclick: () => { a++; shown = 1; open = false; draw(); }}, "Next animal ▶")));
+      const worth = open ? 0 : 4 - shown;
+      const teams = h("div", {class: "teams"},
+        h("div", {class: "mystery"}, emo(open ? e : "❓")), h("div", {class: "answer"}, open ? `It’s a${/^[aeiou]/.test(name) ? "n" : ""} ${name}!` : ""),
+        ["Team A", "Team B"].map((t, k) => h("div", {class: "team"}, h("div", null, t), h("div", {class: "pts"}, pts[k]),
+          h("div", {class: "row", style: "justify-content:center"},
+            h("button", {class: "small", disabled: open, onclick: () => { pts[k] += worth; open = true; draw(); }}, `✅ +${worth || 1}`),
+            h("button", {class: "small", onclick: () => { pts[k] = Math.max(0, pts[k] - 1); draw(); }}, "−1")))));
+      stage.append(h("div", {class: "guess"}, clueBox, teams));
+    }
+    draw();
+  },
+
+  builder(S, box) {
+    const pick = S.cols.map(c => c[1].length === 1 ? 0 : -1);
+    const out = h("div", {class: "sentence"});
+    const grid = h("div", {class: "bcols"});
+    const paint = () => { out.textContent = pick.every(p => p >= 0) ? S.cols.map((c, k) => c[1][pick[k]]).join(" ") : S.cols.map((c, k) => pick[k] >= 0 ? c[1][pick[k]] : "…").join(" ");
+      grid.querySelectorAll("button").forEach(b => b.classList.toggle("sel", pick[+b.dataset.c] === +b.dataset.i)); };
+    S.cols.forEach(([head, opts], c) => grid.append(h("div", {class: "bcol"}, h("h4", null, head || " "),
+      opts.map((o, i) => h("button", {"data-c": c, "data-i": i, onclick: () => { pick[c] = i; paint(); }}, o)))));
+    box.append(h("div", {class: "tools"}, h("button", {class: "small", onclick: () => { S.cols.forEach((c, k) => pick[k] = Math.floor(Math.random() * c[1].length)); paint(); }}, "🎲 Random"),
+      h("button", {class: "small", onclick: () => { S.cols.forEach((c, k) => pick[k] = c[1].length === 1 ? 0 : -1); paint(); }}, "Clear")), out, grid,
+      h("div", {class: "frame", style: "margin-top:1rem;font-size:1.3rem"}, "✏️ Now write 3 sentences in your notebook: Next summer I am going to …"));
+    paint();
+  },
+
+  menu(S, box) {
+    const order = [];
+    const card = h("div", {class: "menucard"}, h("h3", null, "☕ " + S.name), h("div", {class: "muted", style: "text-align:center;font-size:.8rem"}, "Tap food to order · prices in Turkish lira (₺)"));
+    S.sections.forEach(([sec, items]) => { card.append(h("h4", null, sec));
+      items.forEach(([e, n, p, phrase]) => card.append(h("button", {class: "mi", onclick: () => { order.push({e, n, p, phrase}); paint(); }}, emo(e), n, h("span", {class: "p"}, `${p} ₺`)))); });
+    const talk = h("div", {class: "order"}), tot = h("div", {class: "total"});
+    const say = (who, txt) => talk.append(h("div", {class: "say" + (who === "Waiter" ? " waiter" : "")}, h("b", null, who), txt));
+    const sum = () => order.reduce((a, o) => a + o.p, 0);
+    function paint() {
+      talk.innerHTML = "";
+      say("Waiter", "Hello! Welcome to " + S.name + ". What would you like?");
+      order.forEach(o => { say("Customer", `Can I have ${o.phrase}, please?`); say("Waiter", "Of course. Here you are."); });
+      tot.textContent = order.length ? `Bill: ${sum()} ₺` : "";
+    }
+    const pay = h("div", {class: "row", style: "margin-top:.6rem"},
+      h("button", {class: "small", onclick: () => { if (!order.length) return; say("Customer", "Can I have the bill, please? Can I pay in cash?"); say("Waiter", `Yes, you can. That’s ${sum()} lira, please.`); }}, "💵 Pay in cash"),
+      h("button", {class: "small", onclick: () => { if (!order.length) return; say("Customer", "Can I pay by card?"); say("Waiter", "Sorry, you can’t. Our card machine isn’t working today. 😅"); }}, "💳 Pay by card"),
+      h("button", {class: "small", onclick: () => { order.length = 0; paint(); }}, "🆕 New customer"));
+    const script = h("details", {class: "box script", style: "margin-top:.8rem"}, h("summary", null, h("b", null, "📜 Model dialogue")),
+      h("div", {html: `<p><b>Waiter:</b> Hello! Welcome to ${S.name}. Here is the menu.</p><p><b>Customer:</b> Thank you.</p>
+        <p><b>Waiter:</b> What would you like?</p><p><b>Customer:</b> Can I have a bowl of lentil soup, please?</p>
+        <p><b>Waiter:</b> Anything to drink?</p><p><b>Customer:</b> Yes. Can I have a glass of ayran, please?</p>
+        <p><b>Waiter:</b> Here you are. Enjoy your meal!</p><p><b>Customer:</b> Can I have the bill, please? Can I pay in cash?</p>
+        <p><b>Waiter:</b> Yes, of course. That’s 120 lira, please.</p><p><b>Customer:</b> Here you are. Thank you. Goodbye!</p>`}));
+    const checks = ["Food words", "“Can I…?”", "Pronunciation"];
+    const tbl = h("table", {class: "check"}, h("tr", null, h("th", null, "Pair"), checks.map(c => h("th", null, c))));
+    for (let p = 1; p <= S.pairs; p++) tbl.append(h("tr", null, h("td", null, p), checks.map(() => h("td", null, h("button", {onclick: e => { const b = e.currentTarget; b.classList.toggle("on"); b.textContent = b.classList.contains("on") ? "✓" : ""; }})))));
+    const cl = h("details", {class: "box", style: "margin-top:.8rem"}, h("summary", null, h("b", null, "✅ Teacher checklist (role-play)")), tbl,
+      h("p", {class: "muted", style: "font-size:.75rem"}, "Not saved: copy the ticks to your notes before closing."));
+    box.append(h("div", {class: "menu"}, h("div", null, card), h("div", null, h("h3", {style: "margin-top:0"}, "🗣️ Conversation"), talk, tot, pay, script, cl)));
+    paint();
+  },
+
+  listen(S, box) {
+    let playCount = 0;
+    const audio = new Audio();
+    if (S.audio) audio.src = S.audio;
+    activeAudio = audio;
+
+    const playBtn = h("button", {class: "primary listen-play-btn"}, "▶ Play passage");
+    const countBadge = h("span", {class: "listen-badge"}, "🎧 Listen: 0 of 3");
+    const showPassageBtn = h("button", {class: "listen-show-btn"}, "📖 Show the passage");
+
+    const progFill = h("div", {class: "listen-prog-fill"});
+    const progBar = h("div", {class: "listen-prog"}, progFill);
+    const timeEl = h("span", {class: "listen-time"}, "0:00 / 0:00");
+
+    const fmt = s => {
+      if (isNaN(s) || !isFinite(s)) return "0:00";
+      const m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return `${m}:${String(sec).padStart(2, "0")}`;
+    };
+
+    audio.addEventListener("loadedmetadata", () => {
+      timeEl.textContent = `0:00 / ${fmt(audio.duration)}`;
+    });
+    audio.addEventListener("timeupdate", () => {
+      if (audio.duration) {
+        const p = (audio.currentTime / audio.duration) * 100;
+        progFill.style.width = p + "%";
+        timeEl.textContent = `${fmt(audio.currentTime)} / ${fmt(audio.duration)}`;
+      }
+    });
+    audio.addEventListener("play", () => {
+      activeAudio = audio;
+      playBtn.textContent = "⏸ Pause";
+    });
+    audio.addEventListener("pause", () => {
+      playBtn.textContent = "▶ Play passage";
+    });
+    audio.addEventListener("ended", () => {
+      playBtn.textContent = "▶ Play passage";
+      playCount++;
+      countBadge.textContent = `🎧 Listen: ${playCount} of 3`;
+      progFill.style.width = "0%";
+    });
+
+    playBtn.onclick = () => {
+      if (audio.paused) {
+        audio.play().catch(e => console.warn("Audio playback error:", e));
+      } else {
+        audio.pause();
+      }
+    };
+
+    progBar.onclick = e => {
+      if (!audio.duration) return;
+      const rect = progBar.getBoundingClientRect();
+      const pos = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
+      audio.currentTime = pos * audio.duration;
+    };
+
+    const passageCard = h("div", {class: "passage-box", html: S.passage ? S.passage.replace(/\n\n/g, "<br><br>").replace(/\n/g, "<br>") : ""});
+    showPassageBtn.onclick = () => {
+      const isVis = passageCard.classList.toggle("visible");
+      showPassageBtn.textContent = isVis ? "🙈 Hide the passage" : "📖 Show the passage";
+    };
+
+    const station = h("div", {class: "listening-station"},
+      h("div", {class: "listen-top"}, playBtn, countBadge, showPassageBtn),
+      h("div", {class: "listen-bar-wrap"}, progBar, timeEl),
+      passageCard
+    );
+    box.append(station);
+
+    if (S.qs && S.qs.length) {
+      RENDER.mcq({title: S.title, qs: S.qs, mode: "practice"}, box);
+    }
+  }
+};
+
+/* ---------- dice: who comes to the board? ----------
+   Register numbers 1…class size. Nobody is picked twice until everyone has had a turn (shared by all steps).
+   Only the class size is remembered on this computer – no names, no pupil data. */
+const DICE = {max: 30, used: [], rolling: false, ov: null};
+try { const m = +localStorage.getItem("g6-dice-max"); if (m >= 2 && m <= 60) DICE.max = m; } catch (e) {}
+function setDiceMax(v) {
+  DICE.max = Math.min(60, Math.max(2, Math.round(+v) || 30)); DICE.used = [];
+  try { localStorage.setItem("g6-dice-max", DICE.max); } catch (e) {}
+}
+function diceLeft() { return DICE.max - DICE.used.length; }
+function diceNext() {
+  if (diceLeft() <= 0) DICE.used = [];
+  let n; do n = 1 + Math.floor(Math.random() * DICE.max); while (DICE.used.includes(n));
+  DICE.used.push(n); return n;
+}
+function openDice() {
+  if (!DICE.ov) {
+    const num = h("div", {class: "dice-num"}, "?"), cube = h("span", {class: "dice-cube emoji"}, "🎲");
+    const msg = h("div", {class: "dice-msg"}), left = h("span");
+    const size = h("input", {type: "number", min: 2, max: 60, value: DICE.max});
+    const again = h("button", {class: "primary", onclick: () => roll()}, "🎲 Roll again");
+    const close = () => { if (!DICE.rolling) { DICE.ov.remove(); DICE.ov = null; } };
+    size.onchange = () => { setDiceMax(size.value); size.value = DICE.max; const hd = $(".dice-size input"); if (hd) hd.value = DICE.max; paintLeft(); };
+    const paintLeft = () => left.textContent = diceLeft() > 0 ? `${diceLeft()} pupils still to come` : "Everyone has had a turn – the next roll starts a new round";
+    function roll() {
+      if (DICE.rolling) return;
+      DICE.rolling = true; again.disabled = true; msg.textContent = ""; cube.classList.add("spin"); num.classList.add("rolling");
+      const final = diceNext(), quick = matchMedia("(prefers-reduced-motion: reduce)").matches;
+      let t = 0;
+      const id = setInterval(() => {
+        num.textContent = 1 + Math.floor(Math.random() * DICE.max);
+        if ((t += 70) >= (quick ? 0 : 1100)) {
+          clearInterval(id); num.textContent = final; num.classList.remove("rolling"); cube.classList.remove("spin");
+          msg.textContent = `Number ${final}, come to the board! 🙋`; DICE.rolling = false; again.disabled = false; paintLeft();
+        }
+      }, 70);
+    }
+    DICE.roll = roll;
+    DICE.ov = h("div", {class: "dice-ov", onclick: e => { if (e.target === DICE.ov) close(); }},
+      h("div", {class: "dice-card"}, cube, num, msg,
+        h("div", {class: "row"}, again, h("button", {onclick: close}, "✓ OK")),
+        h("div", {class: "dice-set"}, left, h("span", null, "· Pupils:"), size,
+          h("button", {class: "small", onclick: () => { DICE.used = []; paintLeft(); }}, "New class / start again"))));
+    document.body.append(DICE.ov);
+    paintLeft();
+  }
+  DICE.roll();
+}
+
+/* ---------- global controls ---------- */
+$("#brand").onclick = () => go(-1);
+function updateFullscreenState() {
+  const isFs = !!document.fullscreenElement;
+  document.body.classList.toggle("is-fullscreen", isFs);
+  const btn = $("#fsBtn");
+  if (btn) btn.textContent = isFs ? "🗗 Exit full screen" : "⛶ Full screen";
+}
+$("#fsBtn").onclick = () => {
+  if (document.fullscreenElement) {
+    (document.exitFullscreen || document.webkitExitFullscreen).call(document);
+  } else {
+    const el = document.documentElement;
+    (el.requestFullscreen || el.webkitRequestFullscreen).call(el);
+  }
+};
+document.addEventListener("fullscreenchange", updateFullscreenState);
+document.addEventListener("webkitfullscreenchange", updateFullscreenState);
+document.addEventListener("keydown", e => {
+  if (/INPUT|TEXTAREA/.test(document.activeElement.tagName)) return;
+  if (e.key === "Escape" && DICE.ov && !DICE.rolling) { DICE.ov.remove(); DICE.ov = null; return; }
+  if ((e.key === "d" || e.key === "D") && state.lesson >= 0) { openDice(); return; }
+  if (DICE.ov) return;
+  if (state.lesson < 0 || /INPUT|TEXTAREA/.test(document.activeElement.tagName)) return;
+  const n = LESSONS[state.lesson].steps.length;
+  if (e.key === "ArrowRight" && state.step < n - 1) go(state.lesson, state.step + 1);
+  if (e.key === "ArrowLeft" && state.step > 0) go(state.lesson, state.step - 1);
+});
+window.addEventListener("hashchange", readHash);
+readHash();
+</script>
+</body>
+</html>
