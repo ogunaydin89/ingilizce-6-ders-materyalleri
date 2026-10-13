@@ -1,0 +1,19 @@
+OFFICIAL PUBLICATIONS OF THE MINISTRY OF NATIONAL EDUCATION (T.C. MİLLÎ EĞİTİM BAKANLIĞI)
+=========================================================================================
+
+Copyright Notice & License Carve-Out
+------------------------------------
+The files inside this directory (`Official-MEB-Books/`, including any subdirectories such as `listening/`) are official public educational textbooks, workbooks, teacher's books, and accompanying audio/listening materials published by the Republic of Türkiye Ministry of National Education (T.C. Millî Eğitim Bakanlığı — MEB) under the Türkiye Yüzyılı Maarif Modeli (TYMM) curriculum.
+
+1. Copyright Ownership:
+   All copyright, intellectual property rights, trademarks, and moral rights in the files inside this directory belong exclusively to T.C. Millî Eğitim Bakanlığı (MEB), Devlet Kitapları / Ortaöğretim ve Temel Eğitim Genel Müdürlüğü.
+
+2. Exclusion from Root Repository License:
+   These files are EXCLUDED from the Creative Commons Attribution 4.0 International (CC BY 4.0) license that governs the original teaching materials in the rest of this repository.
+
+3. Permitted Use:
+   These official public textbooks and listening materials are archived here strictly unmodified for non-commercial educational, instructional, and curriculum-reference purposes in accordance with public education use in the Republic of Türkiye.
+
+Official Source:
+- https://tymm.meb.gov.tr
+- https://ders.eba.gov.tr

@@ -1,0 +1,1129 @@
+# Official MEB Grade 6 English — Listening Passages & Scripts (2026–2027)
+
+> Extracted from the official **T.C. Millî Eğitim Bakanlığı (MEB) Grade 6 English Student's Textbook** (*Türkiye Yüzyılı Maarif Modeli*, 30.09.2026 edition, pp. 140–159).
+> Includes all **Digital Scenarios (Themes 1–8)**, **Listening Texts (Tracks R.1–8.5)**, and **Karaoke Songs (Themes 1–8)**.
+
+
+---
+
+## Digital Scenarios
+
+
+### THEME 1
+
+
+#### Scene 1 : In the canteen
+
+Mehmet : Hey, friends! Let’s go.
+Defne: Okay, Mehmet, but before leaving, let’s tidy the table. It is our responsibility to keep
+our school clean.
+Sude: Defne is right. We always follow school rules and take care of the environment.
+Mehmet : Sure. Sude, can you give me those bottles? I’ll put them in the bin. OK! There will be a
+school ceremony for the 29 October Republic Day. What will we do this year?
+Sude: The choir is always in the spotlight during the Republic Day celebrations! Our teachers
+can organise an assembly with us to prepare a choir. I’m sure everyone will volunteer
+to join it.
+Defne: That’s a great idea! Sude, your plans are always good. Do you want to be our leader?
+Sude: Okay, I can be the leader. But everyone can share ideas. Mrs Günay can help us make
+a programme. She is always so helpful and a great guide. She is also responsible for
+celebrations.
+Mehmet : She also supports teamwork.
+
+#### Scene 2 : In the classroom
+
+Mrs Günay : Hey, kids! You know, we celebrate the 29 October Republic Day every year. Let’s talk
+about your roles for the celebrations. What do you want to do?
+Defne: Mrs Günay, I like reading poems and speeches. I can find Atatürk’s speeches about
+Republic Day and put them on the noticeboard in the classroom. I want to draw
+pictures with beautiful colours and decorate the classroom with them. Our classroom
+will look amazing.
+Mehmet : I want to carry the flag in the parade.
+Mrs Günay : I am very happy. Everyone wants to help willingly. These celebrations are very
+important for our country.
+Defne: Mrs Günay, we often like singing together with our friends. We want to prepare a
+choir together. Can you help us?
+Mrs Günay : That’s a great idea! Of course I can help you. A choir will be great. You have a short
+time for the preparations, and the examination week is after the celebrations. You
+need to work harder to make the grade!
+Sude: Of course. We’ll plan everything carefully. We’ll work together for the Republic Day
+celebrations first, and later we’ll focus on our exams.
+Mrs Günay : I hope you will be successful.
+Defne: Thank you, Mrs Günay. We will do our best.
+
+#### Scene 3 : At the ceremony
+
+Mehmet : Wow! This is amazing!
+Defne: Yes. We waited for this day, and everything is all right!
+Sude: Let’s sing loudly in the choir.
+Defne: Yeah! And Mehmet, you look so cool.
+Mehmet : Thanks! I think this will be a great ceremony.
+Mrs Günay : There you are! That was a wonderful Republic Day ceremony. Well done!
+Defne
+: We did it with your help, Mrs Günay. Thank you!
+Mrs Günay : You’re welcome. You can be happy today, but don’t forget we have exams next week.
+I know you will pass them too. You won’t fail. You always study together for the tests!
+Mehmet : Of course, Mrs Günay! We are all good team players!
+
+
+### THEME 2
+
+
+#### Scene 1 : In the classroom
+
+Ayşe: Hello, Larry. What are you doing in the classroom now?
+Larry: Hello, Ayşe. I’m studying English.
+Ahmet: Well, what are you reading silently, Violet?
+Violet: I am revising the new words, Ahmet. I need some help with vocabulary work!
+Ahmet: I can help you. I usually use a learning method: read the words aloud with a peer.
+Ayşe: Oh, I remember it. We read the words in turns and ask each other questions, don’t
+we?
+Larry: Yes. It is an effective method. Last week, I got full marks on the English test!
+Violet: Great job! I normally write the new words, but today I am reading them.
+Ahmet: I sometimes write them down, but these days I am practising the words in pairs or
+groups.
+Ayşe: Let’s read each word one by one.
+Larry: Why don’t we review them together in the canteen after school?
+Ayşe-Violet
+Ahmet: OK.
+Violet: The English teacher, Mr Alkan, is coming.
+
+#### Scene 2 : The task
+
+Mr Alkan : Hello, everyone. You have got a task today. You will work in groups.
+Ayşe: What is it about?
+Mr Alkan : It’s especially about your routines and learning activities. You will write a dialogue.
+You are creative students. I want to see effective dialogues.
+Larry: How much time do we have?
+Mr Alkan : You have got ten minutes. Also, you will act it out.
+Mr Alkan : Time is up. Which group wants to start?
+Violet: We do!
+
+#### Scene 3 : Groupwork
+
+Ayşe: Good morning, friends. Let’s talk about your routines and learning activities.
+Ahmet: I usually get up early. I always have breakfast with my family before school. Then I go
+to school by school bus. When I listen to our teacher, I often mark important points
+with a highlighter. And you?
+Ayşe: I wake up at half past seven. I have a drama course every weekend. My favourite
+learning activity is pair-work. I learn easily when I share ideas about exercises with a
+peer.
+Violet: I sometimes have a quick breakfast, and then I always brush my teeth before school.
+When I go to school, I often revise lessons with my friends at school. I think it is an
+effective learning method.
+Larry: I usually rest and do homework after school. Also, I normally prefer working on a task
+alone, but today I am working in a group. I like it.
+Ayşe: I agree with you. Working in groups is creative and fun.
+
+Violet
+Ayşe
+Ahmet
+Violet
+: Well, how often do you practise English?
+: I practise it every evening with my brother.
+: I sometimes practise English with games.
+: I write a diary in English every day before I go to bed. It is helpful. Larry, what about
+you?
+Larry: I’m continuing to use my method for English lessons. Firstly, I watch videos and take
+notes in English. Then I review and repeat them regularly.
+Violet: It sounds nice. You know our new topic is ordinal and cardinal numbers. We can try it
+for practising them.
+Ayşe: Sure! I do the same with songs.
+Ahmet: Great ideas!
+Mr Alkan : Well done!
+Ayşe-Ahmet
+Violet-Larry: Thank you very much.
+
+
+### THEME 3
+
+
+#### Scene 1 : In the garden
+
+Aysel: Hello, İnci. It is a beautiful day, isn’t it?
+İnci: Hi, Aysel. You’re full of beans this morning! I liked your style.
+Aysel: Thanks, you’re so polite. You know, I always try to look good.
+İnci: Well, you always look lovely.
+Aysel: Thank you, İnci. You look great, too.
+İnci: Thanks, Aysel. Are you ready for some shopping? I want to buy a gift for my mother’s
+birthday.
+Aysel: Sure, I should buy something for my brother, too. My mum will drive us to the
+shopping mall. Let’s go then.
+Aysel’s
+mum
+Aysel and: Are you ready?
+İnci: Yes!
+
+#### Scene 2 : In the shopping mall
+
+Aysel: Does your mother wear jewellery?
+İnci: Yes, she has got many necklaces and earrings. She cares for her physical appearance.
+Aysel: Hey, that chain bracelet looks attractive.
+İnci: Yes, and that small purse is also lovely.
+Aysel: You are right. The accessories here are nicer than the other shops.
+İnci: Yeah, maybe you can buy that wallet for your brother.
+Aysel’s
+mum
+İnci and: Let’s go in and do some shopping then.
+Aysel: Sure.
+İnci: Oh no! I can’t find my purse in my backpack.
+Aysel: Don’t panic, just keep your cool! Are you sure you took your purse?
+İnci: Oh, I’m not sure. It seems that I left it at home.
+Aysel: Well, no problem. My mum can lend you some money.
+Aysel’s
+mum
+: Don’t worry, İnci.
+
+İnci
+Aysel
+: Thanks a lot. It’s so nice to have helpful and caring people like you.
+: You’re welcome. That’s what friends are for! Now, let’s go in.
+
+
+#### Scene 3 : Back to the garden
+
+Aysel: I want to ask you something.
+İnci: Oh, what is it?
+Aysel: Can you help me with my science project? You’re very clever. You understand difficult
+topics easily. You always get high marks.
+İnci: That’s very kind of you! But you are more organised than me. You are always so tidy. I
+can be a bit lazy about that.
+Aysel: Well, I think we should study together to complete our science project. We can help
+each other with our weak parts. When we work together, I can be more serious, and
+you can be more independent in sharing your ideas.
+İnci: That’s a brilliant idea! I’m sometimes too social when working in big groups and I
+can’t stay focused. I need a patient peer like you to help me stay focused.
+Aysel: Great! Let’s meet at the library tomorrow.
+İnci: Perfect! The library is the best place to stay focused. We will be a great team.
+
+
+### THEME 4
+
+
+#### Scene 1 : In the classroom
+
+Mrs Akman: Hello, everybody. Are you ready for a new project?
+Students : Yes!
+Mrs Akman: Our topic is your family members’ jobs, working places, and job routines. OK?
+Students : Yes!
+Mrs Akman: You’ll work in groups and search for information about them. Yes, Arya.
+Arya: May I ask a question? When is the deadline?
+Mrs Akman: You present your projects at ten o’clock next Monday. Also, you will write about your
+dream jobs in your presentations. Is everything clear?
+Students : Yes!
+Çağlar: Arya, what is the last task?
+Arya: We are also writing our dream jobs in our presentations until next Monday.
+
+#### Scene 2 : In the classroom
+
+Mrs Akman: Good morning, everybody. I hope you are ready for the presentation. Who wants to
+start first? Yes, Çağlar, come here, please!
+Çağlar: Thank you, Mrs Akman. Hello, everybody. My father is an engineer at a company. He
+designs systems. My mum is a manager in a hotel. My dream job is to be a designer. I
+am attending a design and art workshop next week.
+Mrs Akman: Thank you, Çağlar. Yes, Arya. Come to the board, please.
+Arya: Thanks. Hello. My mum is a cook in her small restaurant. She prepares delicious meals
+by herself. My dad is a dentist. He checks his patients’ teeth in his clinic. I want to be
+a director. I am visiting a film set next Sunday.
+Mrs Akman: Thank you, Arya. Tina, your turn, now.
+Tina: Hi, everybody. My mother is an author. She writes books for children in her office.
+My father works all hours on his new job! He works as a reporter for a news agency.
+My dream job is to be a journalist. I am going to the news agency with my dad next
+Saturday.
+
+Mrs Akman: Great! You also like searching for information. Well, Tom, you can present yours.
+Tom: Thank you. Hello, everybody. My mum works as an officer in a government office. My
+dad works as a professor at a university. He teaches students. My dream is to be a
+businessman. I am helping my uncle, and we are selling clothes to different countries
+together next weekend.
+Mrs Akman: Perfect. Thank you very much.
+Tina: Mrs Akman, we feel happy when we prepare and then share our homework in class
+today. Could you give us another task, please?
+Mrs Akman: Yes, that’s right, Tina. Your new task is ready.
+Students : Yippee!
+Mrs Akman: You will talk about your family homes and houses at 10.15 next Tuesday. Got it?
+Students : Yes!
+
+#### Scene 3 : In Arya’s house
+
+Arya: Welcome to my home, friends. Please make yourselves at home!
+Tina: Thank you, Arya. Let’s start doing our homework!
+Arya: I live in a house with a nice garden. It has a big entrance and two floors.
+Çağlar: Is your room downstairs or upstairs?
+Arya: It’s downstairs. Let’s have a look and take notes for our homework.
+Tom: While I am telling the things in the room, you take notes. OK?
+Çağlar-Tina
+Arya: OK.
+Tom: A blanket, a bookcase, a box, a carpet, a mirror, a clock, a curtain, a drawer, some
+furniture, heating, a key, a light, a pillow, a rubbish bin, a shelf, a towel, and a youth
+room set.
+Tina: I have all of them in my room, and you?
+Çağlar: Yes, I also have them.
+Tom: Yes, I also have them. Our notes are ready. We are writing our presentations ourselves
+this evening. OK?
+Çağlar-Arya
+Tina: Ok!
+
+
+### THEME 5
+
+
+#### Scene 1 : In the school garden
+
+Melike: Hi, Kayhan, the music festival is the talk of the town. It was yesterday in your
+neighbourhood, wasn’t it?
+Kayhan: Oh, yes, Melike! It was the best, wasn’t it, Ryan?
+Ryan: Yes! You know my dad is a musician. He and his band organise festivals every year.
+First, they practise songs together. Then they perform jazz, pop, rock, and rap songs
+on the platform during festivals. They were at the concert yesterday. Were you there,
+Rosa?
+Rosa: Of course! Your dad and his band were amazing. I enjoy listening to rock music at
+festivals.
+Kayhan: Me too. The audience was pleased to sit on the grass during the festival.
+Rosa: It was better than a chair. I like sitting on the grass.
+Melike: Why do they organise festivals and events?
+Ryan: Because the local directors want to celebrate the national days with people in the
+neighbourhood every year. My dad and his band help them organise festivals and
+events like this.
+
+Melike
+Kayhan
+Melike
+: I got it! Excellent!
+: Why weren’t you there, Melike?
+: Because I visit my grandparents every weekend. So I was with them yesterday. I like
+listening to music. Next time, count me in!
+
+
+#### Scene 2 : In the canteen
+
+Melike: Was there a traffic jam on your way here?
+Kayhan: Yes. The city is busy today. Everybody is rushing and trying to catch the tram and
+buses. Also, public transport was crowded yesterday because of the festival. There
+was no parking available. I was on my bicycle. I always prefer riding my bike to taking
+the bus or train.
+Ryan: There were different means of transport. There were also signs and directions along
+the roads, the underpass, and the overpass near our neighbourhood. I normally skate
+everywhere, but yesterday I was tired. I took the bus.
+Rosa: I prefer going everywhere on foot. I sometimes cross the underpass and link my walk
+with the tram ride. But yesterday I was on my bike. Ryan, what about your dad and
+his band?
+Ryan: They have their own instruments and materials. So they always go to festivals in a
+van.
+Melike: Well, they were tired after the great concert, weren’t they?
+Ryan: Sure. But my dad was pleased with the audience and their performance. They will
+organise another local and social event. They plan to raise money for local schools.
+Kayhan: Wow! Perfect! Melike, it’s a chance for you, then.
+Melike: That’s right! Why don’t we plan it and go there on foot together?
+Rosa: Good idea! Walking with best friends is the most fun!
+
+
+### THEME 6
+
+
+#### Scene 1 : Festival area
+
+Aylin: Hello, everyone! I’m Aylin, and this is my friend Jason – we’re the reporters here at
+the festival. Welcome to the international food festival.
+Jason: Hello, everyone! We will show you delicious cuisines from different countries today.
+Aylin: We were in Italy for another festival last week. Chefs from different countries, such as
+England, Greece, India, Belgium, and Sweden, cooked delicious meals.
+Jason: The festival was in Rome, the capital city of Italy. We experienced traditional street
+food everywhere in the city, didn’t we?
+Aylin: Sure! Let’s hunt for flavour!
+
+#### Scene 2 : Interview with a chef
+
+Jason: Welcome to the festival, Chef Civan. Can you tell us about your experiences?
+Chef Civan : Thank you. I lived in different countries for a while, first in Spain, then in France,
+and later in Denmark. I had a culture shock when we moved to Spain, but I learned
+incredible things about cooking. I enjoyed cooking main courses and starters there.
+Aylin: Can you speak any foreign languages?
+Chef Civan : Yes, I can speak Spanish, French, and Danish.
+Jason: Well, you learned the recipes easily because you could communicate with Spanish,
+French, and Danish people.
+Chef Civan : That’s right! Living in a country is the best way to learn about its traditions, dishes,
+and language.
+
+Aylin: I agree with you. What did you cook today?
+Chef Civan : Sour and crunchy chicken from street food stalls or pop-up markets. It’s also a bit
+spicy and crispy.
+Jason: Wow! It’s high-quality and flavourful.
+Aylin: You can find crunchy chicken everywhere, but you can’t find this taste anywhere else.
+Chef Civan : This recipe was the winner in a food competition in Spain.
+Jason: So, the ingredients come from Turkish, Spanish, French, and Danish cuisine, don’t
+they?
+Chef Civan : Sure.
+Aylin: Thank you very much, Chef.
+Chef Civan : You’re welcome.
+
+#### Scene 3 : Interview with an official
+
+Jason: Now, we are interviewing an official from the government, Mrs Smith.
+Aylin: Hello, Mrs Smith. It is a gorgeous festival. Which cuisines are here?
+Mrs Smith : Thank you. Turkish, English, German, Austrian, Polish, and Dutch people are here.
+When they prepare their traditional and national dishes, we have a chance to
+experience their traditions.
+Jason: And we can learn about their flags and historic parts of the country while we are
+visiting their food stands.
+Mrs Smith : Each participant wears their own traditional clothes and prepares brochures.
+Aylin: Yes. Brochures are written in their own languages, like Turkish for Türkiye and the
+Turkish Republic of Northern Cyprus, English for England, German for Germany and
+Austria, Polish for Poland, and Dutch for the Netherlands.
+Mrs Smith : Thank you, Aylin. Well, we are waiting for our guests.
+Jason: There is a big crowd here. I can’t wait to taste other dishes.
+Mrs Smith : Try homemade cookies. They are flavourful and a bit bitter.
+Aylin: Thank you very much, Mrs Smith.
+Mrs Smith : You’re welcome. Enjoy your meal!
+
+
+### THEME 7
+
+
+#### Scene 1 : In the school garden
+
+Toprak: What do you think about our school camp last weekend, Doğa? It was a
+great adventure, wasn’t it?
+Doğa: Sure, Toprak! I loved it. Hiking was the best part. We walked up the green hill with our
+teachers!
+Toprak: I love hiking, too. Also, I want to try snowboarding next winter. Do you like winter
+sports?
+Doğa: No, not really. I prefer summer activities like swimming.
+Toprak: Oh, I see.
+Doğa: There is something important I realized at the camp. We saw plastic rubbish
+everywhere. It’s harmful for nature.
+Toprak: You’re right, Doğa. Pollution is a big problem for all of us. We must reduce the waste
+to protect nature.
+Doğa: Also we must recycle more and use reusable bottles. We can replace plastic bottles
+with reusable ones. We are against throwing rubbish in the forest, aren’t we?
+Toprak: Sure! We have to do something to prevent pollution. Everyone must protect nature.
+Let’s go and talk to our friends.
+
+
+#### Scene 2 : In the classroom
+
+Doğa: Hey, friends! We want to say something. You know we sometimes camp with our
+teachers in the forest. On our last school camping trip, we saw too much rubbish
+there.
+Toprak: And this harms nature. We should do something together to save nature. What do
+you think, Mustafa?
+Mustafa
+İrem
+Ahmet
+Doğa
+Toprak
+: I think we should start a campaign about it. We can share our ideas with our teachers.
+: I agree with Mustafa. A campaign is perfect! We can make posters to find more
+people to support the campaign.
+: You are right, İrem. We can also start a campaign about planting trees. My dad has
+green fingers, his garden looks amazing! I’m sure he will help us with this.
+: Okay, Ahmet. These are great ideas. Let’s do both. We can organise a clean-up day
+first and then a tree-planting event in the area we cleaned.
+: Let’s meet after school and prepare the posters then.
+
+
+#### Scene 3 : Back to the school garden
+
+Doğa: Look, İrem. We picked all the rubbish and planted many trees. We succeeded, didn’t
+we?
+İrem: Yes, Doğa. Every little step makes a great change. We did it all together.
+Ahmet: It looks so beautiful now. We have to make sure it stays this way.
+Mustafa : Yes, Ahmet. We have to protect our new forest.
+İrem: This is an important point, Mustafa. Let’s make this a regular event! We can organise
+a “Protection Team” and a clean-up day every season. I guess Doğa would like to be in
+the team. She’s wild about protecting nature!
+Doğa: Of course! I’m wild about protecting nature! We all will be the team leaders for
+nature. Count me in!
+Toprak: Sure! We will keep working together.
+
+
+### THEME 8
+
+
+#### Scene 1 : In the canteen
+
+Uzay: I read an article about the new AI systems. Tomorrow’s world will be different with
+new technologies!
+Yıldız: It will be, but we have to be smart about it. We need to take care of our green planet!
+Technology shouldn’t harm the environment.
+Uzay: You’re right! I saw a documentary about it. The new eco-cities give us a glimpse of
+future living! They use solar power and have roof farms on buildings.
+Yıldız: That sounds interesting. So, is there a bright future ahead with new technologies?
+Uzay: I think so. It’s not just about smarter phones, but about a healthier planet.
+Yıldız: I agree. A future with technology and nature together sounds like a great time to live.
+Oh, the bell is ringing. The lesson is going to start soon. Let’s go to class.
+
+#### Scene 2 : In the classroom
+
+Mrs Ay: Hello, class! Today, we are going to talk about our solar system. Yıldız, can you say the
+names of the planets in our solar system, please?
+Yıldız: Sure. Let’s start from the planet closest to the Sun.  Mercury, Venus, Earth, Mars,
+Jupiter, Saturn, Uranus, Neptune.
+Mrs Ay
+
+Yıldız
+Mrs Ay: Well done, Yıldız. You know the order very well.
+Yıldız
+Mrs Ay
+Uzay
+Mrs Ay
+Güneş
+Mrs Ay
+: Yes, Mrs Ay. I remember the order of the planets easily with the help of your example
+sentence.
+: Oh, nice. Can you share the sentence with your friends?
+: My very educated mother just showed us Neptune.
+: Thank you, Yıldız! Class, do you see how it works? The first letter of each word helps
+us remember the names of the planets easily. Now, the next question is for Uzay.
+How long does it take the Earth to complete its orbit around the Sun?
+: I know this one, Mrs Ay! It takes 365 days for the Earth to go all the way around the
+Sun.: Very good, Uzay. And we call it a year. And the last question is for Güneş. What is the
+name of the object around the Earth?
+: It is the Moon, Mrs Ay. We can see it day and night when the atmosphere is clear.
+: Perfect, Güneş! Well done, class! You all did a wonderful job today learning about our
+solar system.
+
+
+#### Scene 3 : Back to the school garden
+
+Uzay: You know, we are going to talk about extreme weather conditions in the next lesson. I
+found some pictures about it. I hope our teacher will like them.
+Yıldız: That’s a great idea. What kind of pictures did you find?
+Uzay: I found pictures of storms, thunder, lightning, floods, droughts, tornados,
+thunderstorms, blizzards, and hurricanes.
+Yıldız: Wow, you found so many pictures. I think you are a research expert. I can’t wait to
+see them. They will make the lesson more enjoyable, won’t they?
+Uzay: I hope they will.
+
+
+---
+
+## Listening Texts
+
+
+#### Track R.1
+
+- Listen to the blog page and complete it with correct sentences. There is an extra one.
+		 Dear blog friends,
+		 My name is Kerem, and I’m new here. I love sharing stories about my life, routine, and my
+family. I have got short straight brown hair. I’m not tall. I usually wear comfortable clothes like
+a T-shirt, jeans, and sneakers. I never forget to put on my sunglasses when I go out. Now, let me
+introduce my family.
+		 My mum, Celine, is of medium height with curly black hair. She always follows the fashion. She
+loves wearing fancy outfits. She has many pairs of earrings and necklaces. She takes care of the
+organisation in the house and gives us some responsibilities, such as tidying the rooms or feeding
+our dog. My dad, Ufuk, is really cool. He likes camping, joining different types of festivals, and
+cooking. He is really good at cooking, believe me!
+		 Right now, we are preparing for a family activity. My dad is setting up our tent, and my mum
+is helping him because we are camping in a forest this weekend. At the camp, we’re having a
+barbecue and playing board games together. I love having a picnic and going fishing with my
+family on weekends. We are not staying at home like we generally do. We are having a great
+adventure! My family is very active, and I really love being with them.
+
+#### Track R.2
+
+- Listen to the article from the school magazine “The Explorer’s Corner” and complete it with the
+correct sentences. There is an extra one.
+		 Dear schoolmates and nature lovers,
+		 Hi! I’m Atlas. I love travelling and seeing amazing places on Planet Earth. In this month’s
+column, I want to tell you about our semester holiday plans.
+		 My family loves nature and discovering new continents. My parents usually prefer peaceful
+places, but this time we want a bit of adventure. We are going to go to Australia! It is a very
+interesting continent with deserts and oceans.
+		 My dad is booking the flight tickets right now. My mum is checking the weather because it can
+be very hot there. She is packing our summer clothes, sunglasses, and hats. We need to be ready
+for the sun.
+		 My dad is planning a special surprise for us. We are going to visit the famous coral reefs there.
+He knows that I love swimming and seeing colourful fish under the water. It is going to be a
+magical experience.
+		 After the ocean trip, we have a plan for a “Safari Tour” in the desert. I am going to explore the
+big canyon and take photos of the red rocks. I want to see the sand dunes and maybe kangaroos!
+		 We are going to have a busy schedule. We are not staying at a hotel; we are camping near the
+lake. We want to be in nature all the time.
+		 I’m so excited! It is going to be the best holiday ever!
+		 See you in the next issue!
+
+#### Track 1.1
+
+- Listen to the utterances from the digital story and notice the rises and falls. Then practise
+saying them in pairs.
+I like reading poems.
+You need to work harder to make the grade!
+I think this will be a great ceremony.
+
+#### Track 1.2
+
+- Listen to the dialogue and draw arrows to show rises and falls.
+Lina: I really like our new science teacher.
+Ben: Yeah, her lessons are always interesting.
+
+
+#### Track 1.3
+
+- Listen to the dialogue and circle the correct answers.
+Ziya : Are you joining the assembly for the school ceremony?
+Sedef : Sure! I’m so excited for the Sports Day celebration.
+Ziya : Me, too. I hope I don’t fail in the running race!
+Sedef : Just follow what the PE teacher says. He is helpful.
+Ziya : You’re right. I will try to do my best.
+Sedef : I’m sure you will. Let’s go to the assembly hall.
+
+#### Track 1.4
+
+- Listen to the dialogue again and complete the sentences. Then ask and answer as in the
+example.
+Ziya : Are you joining the assembly for the school ceremony?
+Sedef : Sure! I’m so excited for the Sports Day celebration.
+Ziya : Me, too. I hope I don’t fail in the running race!
+Sedef : Just follow what the PE teacher says. He is helpful.
+Ziya : You’re right. I will try to do my best.
+Sedef : I’m sure you will. Let’s go to the assembly hall.
+
+#### Track 1.5
+
+- Listen to the text and complete it.
+		 We always work together for national celebrations. Our teacher always organises an assembly
+and gives us responsibilities before the school ceremony. She guides all the students during the
+preparations. We follow her instructions carefully. We try to do our best and take care of our
+school. Some students prepare the school ceremony, while others decorate the classroom. When
+the ceremony starts, one student raises the flag. All the students sing the national anthem. Our
+headmaster gives a speech. The choir sings songs and all the students dance. Working together
+makes our school successful
+
+#### Track 1.6
+
+- Listen to the texts and write the names of the students in the correct boxes in Activity 1.
+		 Hello, my name is Serdar. We always have a great time at school. We don’t just sit in the
+classroom all day. We usually join nature activities and learn how to build things using our hands.
+		 Hi, my name is Utku. My school is in the city centre but not in Türkiye. My school day is not
+very long; it starts at eight in the morning and finishes at one in the afternoon.
+		 Hi, I’m Miray. I’m a student at a very special school; you have to be good at drawing, singing or
+acting to be a student here.
+
+#### Track 2. 1
+
+- Listen to the dialogue and notice the rises and falls in negative utterances. Repeat them in
+pairs. Then draw arrows for rises and falls in the last utterance.
+Sam : I am not watching TV now. I don’t like it. What about you?
+Nancy : I am not watching it, either. I don’t have time to watch it.
+
+#### Track 2.2
+
+- Listen to the dialogue and circle the correct option.
+Teacher: Good afternoon, everybody! Today, we will talk about your daily and study routines.
+First, think about them and take notes, please. Yes, Lina, you can start.
+
+Lina: Ok, madam. I usually revise my lessons in the evening, but today I am revising in the
+afternoon. Because I will visit my grandparents with my parents after dinner.
+Teacher: How often do you practise English?
+Lina: I practise it every day. I like it.
+Teacher: Thank you, Lina. Okan, please continue!
+Okan: I normally do my homework after school, but today I am doing it before dinner. I enjoy
+working in pairs and groups. I like helping others and sharing my ideas with them in the
+classroom.
+Teacher: Perfect. Now, follow my instructions. First, read the text silently, then read it aloud to
+each other. Finally, answer the questions. Check your answers together.
+Lina: I know this learning method. It is effective and creative. I do exercises easily.
+Teacher: Great! Let’s start.
+
+#### Track 2.3
+
+- Listen to the dialogue again and tick the teacher’s instructions.
+Teacher: Good afternoon, everybody! Today, we will talk about your daily and study routines.
+First, think about them and take notes, please.
+Yes, Lina, you can start.
+Lina: Ok, madam. I usually revise my lessons in the evening, but today I am revising in the
+afternoon. Because I will visit my grandparents with my parents after dinner.
+Teacher: How often do you practise English?
+Lina: I practise it every day. I like it.
+Teacher: Thank you, Lina. Okan, please continue!
+Okan: I normally do my homework after school, but today I am doing it before dinner. I enjoy
+working in pairs and groups. I like helping others and sharing my ideas with them in the
+classroom.
+Teacher: Perfect. Now, follow my instructions. First, read the text silently, then read it aloud to
+each other. Finally, answer the questions. Check your answers together.
+Lina: I know this learning method. It is effective and creative. I do exercises easily.
+Teacher: Great! Let’s start.
+
+#### Track 2.4
+
+- Listen to Yiğit’s routines and write the missing parts on the chart. Then talk about them in
+pairs.
+		 Hello, friends. I will talk about my routines. I usually brush my teeth after breakfast, but today
+I am brushing my teeth before breakfast. I normally have breakfast with my family, but today
+I am having a quick breakfast. I like my school. I often work in pairs, but today I am working in
+groups. I enjoy reading books. I usually read silently, but today I am reading aloud.
+
+#### Track 3.1
+
+- Listen to the utterances from the digital story and notice the rises and falls. Then practise
+saying them in pairs.
+It is a beautiful day, isn’t it?
+Does your mother wear jewellery?
+What is it?
+
+
+#### Track 3.2
+
+- Listen to the dialogue and draw rises and falls for the questions. Then read the dialogue in
+pairs.
+Sezin : Your brother is the tallest boy in your family, isn’t he?
+Ömer : Yes, he is. Are you taller than your brother?
+Sezin : No, I’m not. He is taller than me.
+Ömer : Who is the tallest person in your family?
+Sezin : It is my father.
+
+#### Track 3.3
+
+- Listen to the dialogue and tick the words/phrases you hear.
+Kate has homework and she asks her dad for help.
+Kate : Hey, Dad. Can you help me with my homework, please?
+Father : Of course, sweetie. What is it about?
+Kate : I need to write the definitions of these words. But I couldn’t finish all of them.
+Father : Okay, let’s look at the ones you couldn’t finish.
+Kate : I’m listening, Dad.
+Father : A kit is a set of sportswear. A heart is an organ that pumps blood.
+Kate : Wait a second, I’m writing.
+Father : A purse is a small bag for carrying money.
+Kate : Okay.
+Father : An ankle is the body part between your leg and foot. A bracelet is a piece of jewellery
+you wear around your wrist.
+Kate : I wrote them.
+Father: The shoes you wear for sports are trainers.
+Kate : And the last one.
+Father : Yes. The jewellery you wear around your neck is a necklace.
+Kate : It’s finished. Thank you, Dad. Now I can write them in the correct categories.
+Father : No problem, sweetie. Anytime.
+
+#### Track 3.4
+
+- Listen to track 3.4 to check your answers in Activity 3. Then repeat the words as a whole class.
+Body parts : back, a heart, a leg, stomach, an ankle, neck, a knee, skin
+Clothes : a kit, a swimsuit, tights, a pocket, trainers
+Accessories : a chain, a purse, a bracelet, a necklace, a wallet
+
+#### Track 3.5
+
+- Listen to the recording and fill in the blanks with the words below.
+		 Hi, I’m Tim. I like doing sports with my sister. I usually wear my white trainers because my
+black trainers are bad. They are small for me. My white trainers are better than the black
+ones. They are more comfortable. But my sister has the best trainers of all. They have lights on
+them! Yesterday, the weather was good. It was sunny and we did sports. Today, it is worse than
+yesterday because there is a storm outside. Sadly, this is the worst storm of the year. I hope we
+will do sports tomorrow.
+
+
+#### Track 3.6
+
+- Listen to the recording again and choose the correct answers.
+		 Hi, I’m Tim. I like doing sports with my sister. I usually wear my white trainers because my
+black trainers are bad. They are small for me. My white trainers are better than the black
+ones. They are more comfortable. But my sister has the best trainers of all. They have lights on
+them! Yesterday, the weather was good. It was sunny and we did sports. Today, it is worse than
+yesterday because there is a storm outside. This is the worst storm of the year. I hope we will do
+sports tomorrow.
+
+#### Track 4.1
+
+- Listen to the dialogue and notice the coloured letters. Then act it out.
+Selin : What is your dream job?
+Burak : I want to be an author. I am earning enough money after university. What about you?
+Selin : My dream job is to be a cook. I like being in the kitchen.
+
+#### Track 4.2
+
+- Listen to the words and circle the one that starts with a different sound. Check your answers
+with your teacher.
+1. a. assistant		
+b. apple		
+c. apartment
+2. a. cook		
+b. centre
+c. clock
+3. a. economy		
+b. entrance
+c. employee
+
+#### Track 4.3
+
+- Listen to the dialogue and complete the chart with the words below. Then check your answers
+in pairs. There is an extra one.
+Mum : Sally, Tom, hurry up! Dad is waiting for us downstairs.
+Sally&Tom: OK, Mum!
+Sally : I’m very excited to see our new apartment.
+Mum : Me too. I have a surprise for Dad. Do me a favour! Keep that secret in the family, please!
+Tom : Oh, I can’t wait for the surprise.
+Dad : Here is our new apartment. While you are looking around, decide what you need in your
+rooms.
+Sally : OK, Dad. I need a pink blanket, a purple carpet, and curtains. Also, I am choosing a big
+mirror and a youth room set for myself.
+Tom : When we go to the home store, I am buying furniture, a light, a big clock, a rubbish bin,
+and a bookshelf.
+Mum : I am buying a cooker, a sink, a refrigerator, and a shelf for the kitchen; pillows and
+drawers.
+Dad : You forgot the heating.
+Mum : I have a surprise for you. I’ve bought a new smart heating. You can control it with your
+phone.
+Dad : Really? It sounds great! Thank you very much.
+
+
+#### Track 4.4
+
+- Listen to Albert’s plans for the weekend and complete the chart below. Then ask and answer
+about his plans in pairs.
+		 Hello, I am Albert. I am busy next weekend. My plane to Ankara takes off at 10:20 next
+Saturday. I am visiting Anıtkabir with my cousins. Then we are going to a restaurant. We are
+staying in a hotel. I am coming back on Sunday. My flight to İstanbul takes off at 21:30. I am going
+to my new apartment. Then I am designing my new furniture by myself.
+
+#### Track 5.1
+
+- Listen to the dialogue and notice the coloured letters. Then act it out.
+Yasemin: Hang on a moment, Batu. Where is the hall key?
+Batu: It’s in front of the light. Hurry up! The jazz festival starts in half an hour. How about taking
+the underground?
+Yasemin: Good idea!
+
+#### Track 5.2
+
+- Listen to the words below and repeat them as a whole class.
+festival - food
+ground - giraffe
+hall - handmade
+inside - idea
+join - jazz
+kitchen - kind
+
+#### Track 5.3
+
+- Listen to the dialogue and complete it with the correct words below. There is an extra one.
+Nil : Hi, Nehir. How was the wedding yesterday?
+Nehir : Hello, Nil. It was the best. The guests and I were pleased with the meals.
+Nil : What kind of music was there?
+Nehir : There were jazz, pop, rock, and rap songs. The musicians were great on the stage. It was
+crowded but amazing.
+Nil : I like pop music. My dad is also a musician.
+Nehir : Really? Does he perform pop music?
+Nil : Yes. He organises concerts and events. He and his band want to raise money for young
+musicians.
+Nehir : Excellent! By the way, where were you yesterday?
+Nil : I was at the theatre with my family. There was a lot of traffic yesterday, wasn’t there?
+Nehir : Oh, yes! We were stuck in a traffic jam on the way to the wedding!
+Nil : Really? What happened then?
+Nehir : The bus was also late yesterday because of the rain. Finally, we were in time for the
+wedding.
+
+#### Track 5.4
+
+- Listen to the recording and complete the paragraph below. Then check the answers in pairs.
+		 I was at the car park at one o’clock yesterday. My car was behind a lorry and in front of a van.
+My friend’s motorcycle was between lorries. The park was crowded. So we couldn’t find our
+vehicles in the park. Then we walked across the road to catch the tram.
+
+
+#### Track 6.1
+
+- Listen to the dialogue and notice the coloured letters. Then act it out.
+Jasmine: Gökhan, did you eat a homemade, sour, and national cake?
+Gökhan: No, Jasmine. Is it from Poland or England?
+Jasmine: English people cook it for five o’clock tea.
+Gökhan: Gorgeous! I will try it.
+
+#### Track 6.2
+
+- Listen to the words and notice the coloured letters below. Then repeat them as a whole class.
+lemon - local			
+language - dumplings
+main - meal 			
+official - school
+nowhere - nation 		
+pop-up - person
+
+#### Track 6.3
+
+- Listen to the dialogue and complete it with the words below. There is an extra one.
+Barış : I watched a documentary about different countries, nationalities, and languages.
+Bahar : Which countries were there in it?
+Barış : Italy, India, and the Netherlands. Italian traditions, cuisine, and historic places are
+incredible.
+Bahar : Yes, I heard about them before. What about India?
+Barış : Indian people speak Hindi and English. They like spicy dishes, like chicken with curry.
+Bahar : I travelled to the Netherlands with my family last summer. I experienced their culture and
+traditional dishes.
+Barış : I saw many kinds of cheese. Orange colour is a symbol for the Dutch people. Did you
+taste “patat” and “kibbeling”?
+Bahar : Yes. “Patat” is deep-fried potatoes, and “kibbeling” is deep-fried pieces of white fish.
+They are Dutch street foods, as appetisers. You should try them.
+
+#### Track 6.4
+
+- Listen to Özgür’s report and check your answers.
+		 Hello, I am Özgür, the reporter at Food Magazine. I travelled to Sweden two days ago. I
+experienced traditional dishes and desserts there. I visited a chef, Mrs Sven, in a restaurant. She
+heated her homemade bread in the stove. She also dried herbs. I enjoyed all of them. I didn’t try
+them anywhere. She also prepared Swedish main courses. I tasted meatballs with sauce. They
+were all delicious.
+
+#### Track 7.1
+
+- Listen to the dialogue and notice the coloured letters. Then act it out.
+A: What do you think about pollution?
+B: We must find a quick solution to it.
+A: You are right.
+
+
+#### Track 7.2
+
+- Listen to the words below. Notice the sounds of coloured letters and circle the odd sound out.
+Then repeat them aloud.
+a. liquid		quiet		quit 		bouquet
+b. forest		river		park		protect
+c. sure		sky		snow		grass
+d. tree		listen		turtle		plant
+e. human		jungle		university
+use		
+
+#### Track 7.3
+
+- Listen to the dialogue and complete it with the correct words below. There is an extra one.
+Ege : Hi, Ece! You weren’t at home last weekend, were you?
+Ece : No. I camped by a small lake with my family in Muğla. It was great!
+Ege : That sounds fun! What did you do there?
+Ece : On the first day, we sailed on the lake. Then we fished for lunch. In the afternoon we
+cycled in the forest. It was beautiful!
+Ege : That sounds fun! What about Sunday?
+Ece : In the morning, I helped my mum and we planted a small tree. Then my brother and I ran
+together near the lake. We also picked some wild strawberries. They were delicious.
+Ege : You did so many things!
+Ece : Yes. I had a wonderful weekend. What about you?
+Ege : We visited my uncle in Erzurum. I wanted to try winter sports. He took us to Palandöken.
+I learnt to ski there. We skied down a hill. It was so much fun. We also rode horses there. It was
+very exciting.
+Ece : Nice to hear you had a great weekend, too. Do you have any plans for the summer
+holiday, Ege?
+Ege : Yes, I want to learn how to sail a boat. What about you?
+Ece : I want to learn to ride a horse. I hope we will have more adventures!
+
+#### Track 8.1
+
+- Listen to the dialogue and notice the coloured letters. Then act it out.
+A: Did you see the yellow fox at the zoo?
+B: Yes. I also saw six very young zebras. And you?
+A: I saw them, too. I liked the zoo very much.
+B: I think we should visit again next week.
+
+#### Track 8.2
+
+- Listen to the words/phrases. Then write the words/phrases in the correct box.
+yesterday - to exist - to invent - sky - a blizzard - world - alive - a zebra - white - Venus
+an experience - weather - to expect - flying - freezing
+
+#### Track 8.3
+
+- Listen to the recording and complete the text with the correct words/phrases below. There is
+an extra one.
+		 Hi, I’m Sami. I always wonder how big the universe is and how long it will continue to exist.
+Scientists say that our universe is extremely old. It is composed of billions of galaxies. They study
+planets and expect to discover interesting facts about them. They predict there will be other
+
+planets we can live on in the universe. Living on some other close planets sounds interesting.
+You know we need water for life. I hope we don’t run out of water and have to go a very long
+distance to find new planets to live on in the future. I suppose we will learn more about the
+universe in the future.
+
+#### Track 8.4
+
+- Listen to the recording to check your answers in Activity 5.
+a. It’s very hot in the room. The window is closed. I will open the window.
+b. We have a plan after school. We are going to visit a museum with friends.
+c. Oh, the phone is ringing. I will answer it.
+d. I am saving my pocket money. I am going to buy a new bike.
+e. Look at those black clouds! I think it is going to rain.
+
+
+---
+
+## Karaoke Texts
+
+
+### THEME 1
+
+
+
+### THEME 2
+
+
+At School
+A friend always cares for you,
+And follows instructions carefully too.
+Students often greet their guide,
+And willingly volunteer inside.
+
+In the Classroom
+They are teaching us,
+We are studying together.
+We read aloud, then we read silently,
+We are learning together so easily.
+
+I care for my school,
+I follow every rule.
+I help with a smile,
+And learn all the while.
+
+Let’s count together,
+Fifty, sixty, seventy, eighty,
+Ninety, and one hundred.
+
+The teacher supports them every day,
+In a helpful and a careful way.
+There is a festival for all,
+We celebrate during the fall.
+I care for my school,
+I follow every rule.
+I help with a smile,
+And learn all the while.
+
+
+### THEME 3
+
+Simple and Fine
+My face is lovely, my hair is fair,
+I’ve got a necklace that I wear.
+My arms are strong, my legs are long,
+My heart is patient, kind, and strong.
+I like myself, I feel so great,
+I am on time, I am not late.
+I say hello, I smile and play,
+I am happy every day.
+My trainers are the cleanest pair,
+My wallet is in my pocket here.
+I don’t need more things to shine,
+This simple image is just fine.
+I like myself, I feel so great,
+I am on time, I am not late.
+I say hello, I smile and play,
+I am happy every day.
+
+We like sharing,
+We like practising.
+In a group, we mark the task,
+In turns, one after another, we ask.
+Let’s count together,
+Fifty, sixty, seventy, eighty,
+Ninety, and one hundred.
+
+
+### THEME 4
+
+Home Sweet Home
+Let’s come and see my apartment,
+There is a big and soft carpet,
+There is a colourful and warm blanket.
+When you come into my room, don’t you see
+my youth room set?
+My room is upstairs.
+My kitchen is downstairs.
+Upstairs, downstairs, and everywhere,
+Warm and lovely.
+The refrigerator, sink, and cooker,
+A towel, a chopping board, and a drawer.
+We have nice furniture in our home,
+Home, home sweet home.
+My room is upstairs.
+My kitchen is downstairs.
+Upstairs, downstairs, and everywhere,
+Warm and lovely.
+
+
+
+### THEME 5
+
+
+
+### THEME 6
+
+
+The Festival Day
+The festival was so nice in the park, wasn’t it?
+The audience was really pleased with it.
+The musicians were amazing on the platform,
+And the singer was there to perform.
+
+Around the World
+We speak Turkish and Spanish.
+They speak Swedish and English.
+We meet people from different nations.
+We experience different traditions.
+
+Jazz, pop, rock, and rap
+Which is the best?
+Let’s sing it and dance together!
+
+Danish, Polish, English,
+German, Italian, Indian,
+We shared our cultures.
+
+The festival was crowded, wasn’t it?
+Everywhere was full of vehicles, wasn’t it?
+There was a railway and an overpass,
+Let’s cross the underpass!
+Jazz, pop, rock, and rap
+Which is the best?
+Let’s sing it and dance together!
+
+
+### THEME 7
+
+
+We enjoyed the crunchy dishes, didn’t we?
+They were homemade and high-quality.
+We tasted spicy and sour street food.
+Everybody said, “Enjoy your meal!”
+Danish, Polish, English,
+German, Italian, Indian,
+We shared our cultures.
+
+
+### THEME 8
+
+
+Nature’s Call
+I went hiking up so high,
+The fresh air against the sky.
+We cycled through the forest green,
+The loveliest nature I’ve seen.
+
+Our Bright Future
+The Sun is bright, the Moon is far,
+We see the light of every star.
+We are going to invent new ways,
+Technology will guide these days!
+
+Nature’s calling, hear the sound,
+Keep it clean all around.
+Pick up trash, plant a tree,
+Love the Earth, let it be free.
+
+We will build a brighter day,
+Clean the rivers, clear the way.
+Smart ideas and sunshine too,
+Our bright future starts with you.
+
+People left their rubbish there,
+We must recycle everywhere!
+Pollution grew over the years,
+Time to end our fears.
+
+Experts say population will grow,
+But green energy will help, you know.
+We are going to protect our land,
+We will succeed, won’t we? Hand in hand!
+
+Nature’s calling, hear the sound,
+Keep it clean all around.
+Pick up trash, plant a tree,
+Love the Earth, let it be free.
+
+We will build a brighter day,
+Clean the rivers, clear the way.
+Smart ideas and sunshine too,
+Our bright future starts with you.

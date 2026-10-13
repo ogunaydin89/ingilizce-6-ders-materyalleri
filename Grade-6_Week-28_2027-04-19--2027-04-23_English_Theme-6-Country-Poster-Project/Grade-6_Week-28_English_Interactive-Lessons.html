@@ -685,11 +685,10 @@ function renderHub(app) {
   });
   hub.append(grid, h("div", {class: "howto", html:
     `<b>How to use it on the board</b><ul>
-    <li>Open a lesson and go step by step with <b>Next ▶</b> (or the → arrow key). Tap <b>⛶ Full screen</b> for classroom smartboard view.</li>
-    <li><b>Teacher tip</b> (yellow) says how to run the step. <b>TR hints</b> shows short Turkish help for weaker pupils.</li>
+    <li>Open a lesson and go step by step with <b>Next ▶</b> (or the <b>← / →</b> arrow keys). Tap <b>⛶ Full screen</b> (or press <b>F</b>) for edge-to-edge classroom smartboard view.</li>
+    <li><b>Teacher tip</b> (yellow) says how to run the step. <b>TR hints</b> (or key <b>T</b>) shows short Turkish help for weaker pupils.</li>
     <li><b>🎲 Who’s next?</b> is on every step (or press <b>D</b>): it rolls a class register number for the pupil who comes to the board. Nobody is picked twice until everyone has had a turn; “Roll again” skips an absent pupil. Type the number of pupils in the <b>👥 Pupils</b> box at the top of any page (6/A and 6/B have different numbers): changing it starts a new round for the new class. The number is remembered on this computer.</li>
-    <li>Everything works offline. No pupil names are needed or saved.</li>
-    <li>The Lesson 3 revision quiz is diagnostic: pupils answer on paper, you type how many got each question right, and the last screen shows the weakest themes.</li></ul>`}));
+    <li><b>🎧 Listening Station:</b> tap <b>▶ Play passage</b> (or press <b>P</b>), toggle <b>🐢 0.85×</b> for slower playback on a second listening, and tap <b>📖 Show the passage</b> to check answers in the text. Everything works 100% offline.</li></ul>`}));
   app.append(hub);
 }
 
@@ -767,7 +766,9 @@ const RENDER = {
 
   mcq(S, box) {
     const quiz = S.mode === "quiz";
-    const qs = S.qs.map((q, i) => ({...q, opts: (q.fixed || q.a != null ? x => x : x => shuffle(x, rng(S.title + i)))(q.o.map((t, k) => ({t, ok: k === (q.a ?? 0)})))}));
+    let attempt = 0;
+    const makeQs = () => S.qs.map((q, i) => ({...q, opts: (q.fixed || q.a != null ? x => x : x => shuffle(x, rng(S.title + i + (attempt ? ":" + attempt : ""))))(q.o.map((t, k) => ({t, ok: k === (q.a ?? 0)})))}));
+    let qs = makeQs();
     const res = qs.map(() => null);      // practice: true/false · quiz: number of pupils right
     let i = 0, classSize = 20;
     if (S.scene) {
@@ -814,7 +815,7 @@ const RENDER = {
       if (!quiz) {
         const sc = res.filter(x => x).length;
         wrap.append(h("div", {class: "score"}, `${sc} / ${qs.length} ${sc === qs.length ? "🌟" : sc >= qs.length * .7 ? "👏" : "💪"}`),
-          h("div", {class: "row"}, h("button", {onclick: () => { res.fill(null); i = 0; draw(); }}, "🔁 Try again")));
+          h("div", {class: "row"}, h("button", {onclick: () => { attempt++; qs = makeQs(); res.fill(null); i = 0; draw(); }}, "🔁 Try again")));
         return;
       }
       const cs = h("input", {type: "number", min: 1, max: 60, value: classSize});
@@ -896,7 +897,7 @@ const RENDER = {
       opts.map((o, i) => h("button", {"data-c": c, "data-i": i, onclick: () => { pick[c] = i; paint(); }}, o)))));
     box.append(h("div", {class: "tools"}, h("button", {class: "small", onclick: () => { S.cols.forEach((c, k) => pick[k] = Math.floor(Math.random() * c[1].length)); paint(); }}, "🎲 Random"),
       h("button", {class: "small", onclick: () => { S.cols.forEach((c, k) => pick[k] = c[1].length === 1 ? 0 : -1); paint(); }}, "Clear")), out, grid,
-      h("div", {class: "frame", style: "margin-top:1rem;font-size:1.3rem"}, "✏️ Now write 3 sentences in your notebook: Next summer I am going to …"));
+      h("div", {class: "frame", style: "margin-top:1rem;font-size:1.3rem"}, S.note || "✏️ Now write 3 sentences in your notebook using the table above."));
     paint();
   },
 
@@ -934,14 +935,22 @@ const RENDER = {
   },
 
   listen(S, box) {
-    let playCount = 0;
+    let playCount = 0, slow = false;
     const audio = new Audio();
     if (S.audio) audio.src = S.audio;
     activeAudio = audio;
 
-    const playBtn = h("button", {class: "primary listen-play-btn"}, "▶ Play passage");
+    const playBtn = h("button", {class: "primary listen-play-btn", title: "Play or pause audio (key: P)"}, "▶ Play passage");
+    const slowBtn = h("button", {class: "small toggle", title: "Toggle slower playback (0.85×) for second listening"}, "🐢 0.85×");
     const countBadge = h("span", {class: "listen-badge"}, "🎧 Listen: 0 of 3");
     const showPassageBtn = h("button", {class: "listen-show-btn"}, "📖 Show the passage");
+
+    slowBtn.onclick = () => {
+      slow = !slow;
+      audio.playbackRate = slow ? 0.85 : 1.0;
+      slowBtn.classList.toggle("on", slow);
+      slowBtn.textContent = slow ? "🐢 0.85× ON" : "🐢 0.85×";
+    };
 
     const progFill = h("div", {class: "listen-prog-fill"});
     const progBar = h("div", {class: "listen-prog"}, progFill);
@@ -965,6 +974,7 @@ const RENDER = {
     });
     audio.addEventListener("play", () => {
       activeAudio = audio;
+      audio.playbackRate = slow ? 0.85 : 1.0;
       playBtn.textContent = "⏸ Pause";
     });
     audio.addEventListener("pause", () => {
@@ -999,7 +1009,7 @@ const RENDER = {
     };
 
     const station = h("div", {class: "listening-station"},
-      h("div", {class: "listen-top"}, playBtn, countBadge, showPassageBtn),
+      h("div", {class: "listen-top"}, playBtn, slowBtn, countBadge, showPassageBtn),
       h("div", {class: "listen-bar-wrap"}, progBar, timeEl),
       passageCard
     );
@@ -1062,6 +1072,10 @@ function openDice() {
 
 /* ---------- global controls ---------- */
 $("#brand").onclick = () => go(-1);
+$("#trBtn").onclick = e => {
+  const on = document.body.classList.toggle("show-tr");
+  e.currentTarget.classList.toggle("on", on);
+};
 function updateFullscreenState() {
   const isFs = !!document.fullscreenElement;
   document.body.classList.toggle("is-fullscreen", isFs);
@@ -1081,6 +1095,9 @@ document.addEventListener("webkitfullscreenchange", updateFullscreenState);
 document.addEventListener("keydown", e => {
   if (/INPUT|TEXTAREA/.test(document.activeElement.tagName)) return;
   if (e.key === "Escape" && DICE.ov && !DICE.rolling) { DICE.ov.remove(); DICE.ov = null; return; }
+  if (e.key === "f" || e.key === "F") { $("#fsBtn").click(); return; }
+  if (e.key === "t" || e.key === "T") { $("#trBtn").click(); return; }
+  if ((e.key === "p" || e.key === "P") && $(".listen-play-btn")) { $(".listen-play-btn").click(); return; }
   if ((e.key === "d" || e.key === "D") && state.lesson >= 0) { openDice(); return; }
   if (DICE.ov) return;
   if (state.lesson < 0 || /INPUT|TEXTAREA/.test(document.activeElement.tagName)) return;
