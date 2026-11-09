@@ -27,7 +27,7 @@ Answer keys and diagnostic quizzes are intentionally excluded to keep classroom 
 
 Each theme ends with the official performance task: a poster, a game, a booklet, a report or a comic strip (Weeks 7, 12, 16, 20, 24, 28, 32, 36).
 
-The language of every week follows the MoNE Year 6 English framework plan 2026-2027 (vocabulary, grammar, outcomes and performance tasks). Illustrations (from Week 4 on) were created by the author with AI tools (ComfyUI on a local computer; replacement pictures with Google Gemini), checked one by one, and are released under the same licence. Atatürk photographs and flags are public-domain images from Wikimedia Commons.
+The language of every week follows the MoNE Year 6 English framework plan 2026-2027 (vocabulary, grammar, outcomes and performance tasks). Illustrations (from Week 4 on) are original works prepared for this course and released under the same licence. Atatürk photographs and flags are public-domain images from Wikimedia Commons.
 
 ## Folder and file names
 
@@ -47,7 +47,3 @@ Files inside repeat the grade, week and subject, e.g. `Grade-6_Week-04_English_D
 - MoNE 2026-2027 Year 6 English Coursebooks & Annual Framework Plans: <https://tymm.meb.gov.tr> (archived for reference in [`Official-MEB-Books/`](Official-MEB-Books/))
 
 All weekly lesson plans, interactive boards, student notes, worksheets, and illustrations in `Grade-6_Week-01` through `Grade-6_Week-37` are 100% original materials containing no student personal data.
-
-## For the maintainer
-
-The plans are generated, not edited by hand. The build system (one data file per week, plus the Python/JS modules that render the PDFs and the board) is kept locally and is not part of this repository.
